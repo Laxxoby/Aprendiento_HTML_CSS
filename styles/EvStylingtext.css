@@ -1,0 +1,250 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+    border-top: 5px solid rgb(61, 34, 215);
+    border-bottom: 5px solid rgb(61, 34, 215);
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+html {
+    font-size: 10px;
+    /* Dé a la página un tamaño de fuente de 10px. */
+}
+
+h1,
+h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+    font-family: 'Arvo', serif;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    word-spacing: 0.6rem;
+}
+
+/* Centre el encabezado de nivel superior en la página */
+
+header {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+body {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/* Aplica la sangría de 20px al primer párrafo después de cada encabezado dentro de <section> */
+section h1+p:first-line,
+section h2+p:first-line,
+section h3+p:first-line,
+section h4+p:first-line,
+section h5+p:first-line,
+section h6+p:first-line {
+
+    line-height: 1.8;
+}
+
+/* Enlaces  */
+
+a {
+    outline: none;
+    text-decoration: underline blue;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: rgb(61, 34, 215);
+}
+
+a:visited {
+    color: #931acb;
+}
+
+a:focus {
+    border-bottom: 1px solid;
+    background: #4320d1;
+    color: rgb(203, 215, 34);
+    border-radius: 5px 5px 0 0;
+}
+
+a:hover {
+    background: #a0a5f049;
+    border-radius: 5px 5px 0 0;
+}
+
+a:active {
+    background: #4320d1;
+    color: rgb(215, 103, 34);
+    border-radius: 5px 5px 0 0;
+}
+
+
+/* Cuando el ratón pasa por encima del enlace o el enlace se enfoca, eliminar el subrayado */
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+/* Hacer que los enlaces externos tengan el icono de enlace externo insertado junto a ellos. */
+a[href*="http"] {
+    background: url("../images/icons8-external-link-26.png") no-repeat 100% 0;
+    background-size: 8px 8px;
+    padding-right: 12px;
+}
+
+/* Asegúrese de que el espaciado de las listas y los elementos de las listas se ajusta al estilo general de la página. Cada elemento de la lista debe tener la misma altura de línea que una línea de párrafo, y cada lista debe tener el mismo espaciado en su parte superior e inferior que entre párrafos. */
+ul,
+ol,
+dl {
+    font-size: 1.4rem;
+}
+
+li{
+    line-height: 1.5;
+}
+
+
+/* Estilos para las listas de descripciones */
+
+dd,
+dt {
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* Dé a los elementos de su lista una bonita viñeta apropiada para el diseño de la página. Depende de ti si eliges una imagen de viñeta personalizada u otra cosa. */
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+section ul li, aside ul li {
+    padding-left: 2rem;
+    background-image: url(../images/keyboard_arrow_right_FILL0_wght400_GRAD0_opsz48.svg);
+    background-position: 0 2px;
+    
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+/* Barra de navegacion vetical  */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+    width: 100%;
+}
+
+nav li {
+    margin-block-start: 5%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+nav a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    border-block-end: 2px solid rgb(61, 34, 215) ;
+    border-radius: 1px;
+}
+
+nav li:last-child a {
+    margin-right: 0;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+    background: rgb(255, 251, 0);
+    color: rgb(61, 34, 215);
+    border-radius: 0;
+}
+
+nav a:hover {
+    background: #4320d1;
+    color: rgb(238, 255, 0);
+}
+
+nav a:active {
+    background: rgb(255, 166, 0);
+    color: #4320d1;
+}

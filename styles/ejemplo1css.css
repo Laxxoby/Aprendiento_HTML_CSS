@@ -1,0 +1,60 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+
+  
+p,
+li {
+    color: green;
+    list-style-type: square;
+    /* Puntos de viñetas */
+}
+
+
+
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+.special2 {
+    color: rgb(106, 255, 0);
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+h1+p {
+    font-size: 200%;
+}
+
+p span {
+    color: aqua;
+    font-weight: bold;
+}
+
+a:link {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(86, 148, 219);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+body h1+p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}

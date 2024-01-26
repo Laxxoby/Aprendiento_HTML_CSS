@@ -1,0 +1,72 @@
+/* General styles - put these straight into your stylesheet */
+/* Estilos generales de página */
+body {
+    margin: 0;
+}
+
+html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+}
+
+/* contenedor de tarjetas */
+.card article {
+    block-size: 9.23em;
+    padding-inline-start: 10px;
+    background-color: rgba(42, 42, 237, 0.251);
+    font-size: 13px;
+}
+
+/* encabezado y el pie de página */
+.card header>h2, footer>p, p{
+    margin: 0;
+    }
+    
+    .card header, footer {
+    
+        block-size: 30px;
+        padding: 10px;
+    }
+
+    .card  h2 {
+        font-size: 1.725em;
+    }
+
+    .card footer>p {
+        font-size: 1.3em;
+    }
+/* estilos específicos para el contenido principal de la tarjeta de visita */
+
+/* Selectors to be matched up with rulesets */
+
+
+/* Rulesets to be matched up with selectors */
+
+.card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: rgb(181, 62, 218);
+    border: 0.2em solid rgba(44, 19, 46, 0.763);
+    border-radius: 1.5em;
+}
+
+.card header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.card footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+.card img {
+    max-height: 100%;
+    float: right;
+    width: 15%;
+    /* Puedes cambiar el porcentaje según tus necesidades */
+    height: auto;
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mis experimentos CSS</title>
+    <link href="styles/cssejer1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Jane Doe</h1>
+    <div class="job-title">Web Developer</div>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+        texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+        paradisematic country, in which roasted parts of sentences fly into your mouth. </p>
+
+    <h2>Contact information</h2>
+    <ul>
+        <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
+        <li>Web: <a href="http://example.com">http://example.com</a></li>
+        <li>Tel: 123 45678</li>
+    </ul>
+
+    <article>
+        <p>Recuerda personalizar tu CV de acuerdo con tus propias experiencias, habilidades y logros. Asegúrate de
+            utilizar un lenguaje claro y conciso, y revisa cuidadosamente tu CV para corregir errores gramaticales o de
+            ortografía. Además, es recomendable adaptar el <em>formato y contenido de tu CV</em> según las expectativas
+            y normas
+            del país o región en la que te encuentres aplicando.
+        <p>QUe?</p>
+        </p>
+        <p>QUe?</p>
+    </article>
+
+    <h1 class="highlight">Class selectors</h1>
+    <p>Veggies es bonus vobis, proinde vos postulo essum magis <span class="highlight">kohlrabi welsh onion</span>
+        daikon amaranth tatsoi tomatillo
+        melon azuki bean garlic.</p>
+
+    <p class="highlight">Gumbo beet greens corn soko <strong>endive</strong> gumbo gourd. Parsley shallot courgette
+        tatsoi pea sprouts fava bean collard
+        greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+    <p>Para decirle al navegador que solo queremos seleccionar el elemento si incluye todas estas clases, las
+        encadenamos juntas sin ningún espacio entre ellas.</p>
+
+    <div class="notebox">
+        This is an informational note.
+    </div>
+
+    <div class="notebox warning">
+        This note shows a warning.
+    </div>
+
+    <div class="notebox danger">
+        This note shows danger!
+    </div>
+
+    <div class="danger">
+        This won't get styled — it also needs to have the notebox class
+    </div>
+
+    <h1 id="heading">ID selector</h1>
+    <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo
+        melon azuki bean garlic.</p>
+
+    <p id="one">Gumbo beet greens corn soko <strong>endive</strong> gumbo gourd. Parsley shallot courgette tatsoi pea
+        sprouts fava bean collard
+        greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+    <div class="Attr">
+        <h1>Attribute presence and value selectors</h1>
+        <ul>
+            <li>Item 1</li>
+            <li class="a">Item 2</li>
+            <li class="a b">Item 3</li>
+            <li class="ab">Item 4</li>
+        </ul>
+    </div>
+    <span class="AttrSub">
+        <h1>Attribute substring matching selectors</h1>
+        <ul>
+            <li class="a">Item 1</li>
+            <li class="ab">Item 2</li>
+            <li class="bca">Item 3</li>
+            <li class="bcabc">Item 4</li>
+        </ul>
+    </span>
+
+    <h1>Ejemplos simples de pseudoclases</h1>
+    <article>
+        <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo
+            melon azuki bean garlic.</p>
+
+        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean
+            collard
+            greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+    </article>
+
+    <h1>Pseudoclases de acción de usuario</h1>
+    <p><a href="">Hover over me</a></p>
+
+    <h1>¿Qué es un pseudoelemento?</h1>
+    <article class="siu">
+        <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo
+            melon azuki bean garlic.</p>
+
+        <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean
+            collard
+            greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+    </article>
+
+    <div class="arrow_box"></div>
+
+    <div class="probar"></div>
+
+    <div>
+        <input type="radio" name="my-input" id="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" name="my-input" id="no">
+        <label for="no">No</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="my-checkbox" id="opt-in">
+        <label for="opt-in">Check me!</label>
+    </div>
+
+    <select name="my-select" id="fruit">
+        <option value="opt1">Apples</option>
+        <option value="opt2">Grapes</option>
+        <option value="opt3">Pears</option>
+    </select>
+
+    <article>
+        <h1>A heading</h1>
+        <p>I am a paragraph.</p>
+        <div>I am a div</div>
+        <p>I am another paragraph.</p>
+    </article>
+
+    <nav>
+        <ul class="links-list">
+            <li><a href="">Link one</a></li>
+            <li><a href="">Link two</a></li>
+            <li><a href="">Link three</a></li>
+        </ul>
+    </nav>
+
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+/* Estilos generales */
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+ul,
+ol,
+dl,
+p {
+    font-size: 1.5rem;
+}
+
+li,
+p {
+    line-height: 1.5;
+}
+
+/* Estilos para las listas de descripciones */
+
+dd,
+dt {
+    line-height: 1.5;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos específicos de las listas */
+
+/* ul,
+ol {
+
+    /* list-style-type: square; */
+/* list-style-image: url(../images/otaku_icon.png) ; 
+
+} */
+
+ol {
+    list-style-type:lower-latin;
+    list-style-position: inside;
+}
+
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 2rem;
+    background-image: url(../images/otaku_icon.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+/* Propiedad abreviada list-style */
+
+/* ul {
+    list-style: square url(example.png) inside;
+  } */

@@ -1,0 +1,43 @@
+
+
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .sender-column {
+    text-align: right;
+  }
+  .letrabonita {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+  }
+  
+  ul.sin-puntos {
+    list-style-type: none;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+  }
+  
+  p,ul,ol,dl,address {
+    font-size: 1.1em;
+  }
+  
+  p, li, dd, dt, address {
+    line-height: 1.5;
+  }
+
+  body {
+    background-image: url("../images/wallhaven-welkdr.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  

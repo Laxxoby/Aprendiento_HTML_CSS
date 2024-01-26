@@ -1,0 +1,113 @@
+html {
+    font-size: 10px;
+    /* Establecer el tamaño de la letra en 10px para facilitar el calculo de em */
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    text-align: center;
+
+    /* Sombras al texto */
+    text-shadow:
+        -1px -1px 1px #aaa,
+        0px 4px 1px rgba(0, 0, 0, 0.5),
+        4px 4px 5px rgba(0, 0, 0, 0.7),
+        0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+.shadow10 {
+    color: yellow;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+        5px 5px 1px orange,
+        6px 6px 2px rgba(0, 0, 0, 0.7),
+        10px 10px 1px red,
+        11px 11px 2px rgba(0, 0, 0, 0.7),
+        15px 15px 1px purple,
+        16px 16px 2px rgba(0, 0, 0, 0.7);
+    -webkit-animation: text-snake 1s infinite alternate;
+    -moz-animation: text-snake 1s infinite alternate;
+    -ms-animation: text-snake 1s infinite alternate;
+    animation: text-snake 1s infinite alternate;
+}
+
+/* other prefixed animation blocks ommitted for brevity */
+
+@keyframes text-snake {
+    from {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+            5px 5px 1px orange,
+            6px 6px 2px rgba(0, 0, 0, 0.7),
+            10px 10px 1px red,
+            11px 11px 2px rgba(0, 0, 0, 0.7),
+            15px 15px 1px purple,
+            16px 16px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    to {
+        text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.7),
+            -5px 5px 1px orange,
+            -6px 6px 2px rgba(0, 0, 0, 0.7),
+            -10px 10px 1px red,
+            -11px 11px 2px rgba(0, 0, 0, 0.7),
+            -15px 15px 1px purple,
+            -16px 16px 2px rgba(0, 0, 0, 0.7);
+    }
+}
+
+h1+p {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.4rem;
+    color: red;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+    padding-inline: 3em;
+    line-height: 1.5;
+}
+
+p::first-line {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+  }
+  
+/* Estilo y cuerpo del tipo de letra, efectos y decoración del texto */
+
+/* font-weight: Establece el grueso o peso del texto. Puede haber muchos valores si dispones de muchas variantes de fuente (como -light, -normal, -bold, -extrabold, -black, etc.), pero en realidad raramente usarás alguna de ellas, más allá de los estilos normal y bold:
+normal, bold: Grueso del tipo de letra normal y negrita
+lighter, bolder: Establece el grueso de la negrita del elemento activo un nivel por debajo o por encima del grueso de su elemento padre.
+100–900: Valores numéricos de negrita, que proporcionan un control más detallado que las palabras clave anteriores, si es necesario. */
+
+/* text-transform: Te permite practicar algunas transformaciones sobre tu tipo de letra. Los valores incluyen: */
+
+/* text-decoration: Activa/desactiva decoraciones en los tipos de letra (usarás esto principalmente para desactivar el subrayado por defecto de los enlaces al aplicarles estilo). */
+/* 
+p {
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-decoration: underline overline;
+    text-decoration: underline overline line-through rgba(131, 52, 200, 0.509) wavy;
+} */
+
+
+                      /* Diseño del texto */
+
+/* linealizar */
+text-align: center;
+
+/* margen entre lineas */
+line-height: 1.5;
+
+/* Espacio entre letras y palabras  */
+letter-spacing: 2px;
+word-spacing: 4px;
+
+/* Abreviar 
+Se escriben en el orden siguiente: font-style, font-variant, font-weight, font-stretch (en-US), font-size, line-height, and font-family. */
+font:
+  italic normal bold normal 3em/1.5 Helvetica,
+  Arial,
+  sans-serif;

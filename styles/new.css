@@ -1,0 +1,3483 @@
+/* Clarifion Upsell */
+
+position: relative;
+width: 1500px;
+height: 1379px;
+
+background: #FFFFFF;
+
+
+/* USPS */
+
+position: absolute;
+width: 1500px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+
+
+/* BG */
+
+position: absolute;
+width: 1500px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+background: #252F3D;
+
+
+/* 1 */
+
+position: absolute;
+width: 227px;
+height: 22px;
+left: 127px;
+top: 15px;
+
+
+
+/* fluent:checkmark-starburst-20-regular */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 127px;
+top: 15px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.65%;
+right: 8.65%;
+top: 8.64%;
+bottom: 8.65%;
+
+background: #FFFFFF;
+
+
+/* 30-DAY SATISFACTION GUARANTEE */
+
+position: absolute;
+width: 197px;
+height: 9px;
+left: 157px;
+top: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* or 12px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 2 */
+
+position: absolute;
+width: 257px;
+height: 22px;
+left: 468px;
+top: 15px;
+
+
+
+/* ph:truck-light */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 468px;
+top: 15px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 3.91%;
+right: 3.91%;
+top: 22.66%;
+bottom: 13.27%;
+
+background: #FFFFFF;
+
+
+/* Free delivery on orders over $40.00 */
+
+position: absolute;
+width: 227px;
+height: 9px;
+left: 498px;
+top: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* or 12px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* 3 */
+
+position: absolute;
+width: 192px;
+height: 22px;
+left: 847px;
+top: 15px;
+
+
+
+/* mdi:cards-heart-outline */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 847px;
+top: 15px;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 8.33%;
+right: 8.34%;
+top: 12.5%;
+bottom: 11.04%;
+
+background: #FFFFFF;
+border: 0.2px solid #FFFFFF;
+
+
+/* 50.000+ HAPPY CUSTOMERS */
+
+position: absolute;
+width: 162px;
+height: 9px;
+left: 877px;
+top: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* or 12px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 4 */
+
+position: absolute;
+width: 209px;
+height: 22px;
+left: 1154px;
+top: 15px;
+
+
+
+/* fluent:arrow-sync-checkmark-20-regular */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 1154px;
+top: 15px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.49%;
+top: 3.33%;
+bottom: 3.28%;
+
+background: #FFFFFF;
+
+
+/* 100% Money Back Guarantee */
+
+position: absolute;
+width: 179px;
+height: 9px;
+left: 1184px;
+top: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* or 12px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* Frame 1000004695 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 30px 127px;
+gap: 10px;
+
+position: absolute;
+width: 1500px;
+height: 96px;
+left: 0px;
+top: 50px;
+
+background: #FFFFFF;
+
+
+/* 600a41c73b670a97ae1d4f47_Clarifion_Logo 1 */
+
+margin: 0 auto;
+width: 192px;
+height: 36px;
+
+background: url(600a41c73b670a97ae1d4f47_Clarifion_Logo.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1484578056 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 202px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1484578055 */
+
+width: 88px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* McAfee_Secure */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Path_29 */
+
+position: absolute;
+left: 0%;
+right: 65.22%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(150.97deg, #646567 20.22%, #717274 28.06%, #898B8D 45.85%, #9A9B9D 63.87%, #A4A5A7 82.14%, #A7A8AA 101.06%);
+
+
+/* Path_30 */
+
+position: absolute;
+left: 0%;
+right: 65.41%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(237.47deg, #C6C7C8 36.02%, #DCDDDD 41.49%, #F0F0F0 48.1%, #FBFBFB 54.82%, #FFFFFF 61.78%, #F6F7F7 67.97%, #DFDFE0 77.91%, #B9BABB 90.34%, #A7A8AA 95.52%);
+
+
+/* Path_31 */
+
+position: absolute;
+left: 1.63%;
+right: 66.85%;
+top: 4.43%;
+bottom: 4.71%;
+
+background: #FFFFFF;
+border: 0.515px solid #000000;
+
+
+/* Group_9 */
+
+position: absolute;
+left: 1.63%;
+right: 66.85%;
+top: 4.43%;
+bottom: 4.71%;
+
+
+
+/* Path_32 */
+
+position: absolute;
+left: 1.63%;
+right: 66.85%;
+top: 4.43%;
+bottom: 4.71%;
+
+background: #FFFFFF;
+
+
+/* Path_33 */
+
+position: absolute;
+left: 1.34%;
+right: 66.54%;
+top: 4.16%;
+bottom: 3.88%;
+
+background: linear-gradient(236.82deg, #4B4B4D 18.48%, #4D4D4F 19.37%, #67686A 35.69%, #797A7C 52.29%, #838486 69.09%, #87888A 86.5%);
+
+
+/* Path_34 */
+
+position: absolute;
+left: 4.14%;
+right: 69.36%;
+top: 14.96%;
+bottom: 13.3%;
+
+background: linear-gradient(126.09deg, #8B1325 18.22%, #CB0233 62.22%, #CB0233 69.54%, #8A193F 90.71%);
+
+
+/* Path_35 */
+
+position: absolute;
+left: 5.95%;
+right: 71.17%;
+top: 19.94%;
+bottom: 18.01%;
+
+background: radial-gradient(100.49% 102.93% at -41953.17% -30980.82%, #CB0233 0%, #CB0233 46.1%, #8A193F 100%);
+
+
+/* Path_36 */
+
+position: absolute;
+left: 4.28%;
+right: 69.5%;
+top: 14.96%;
+bottom: 78.95%;
+
+background: #8B1325;
+
+
+/* Path_37 */
+
+position: absolute;
+left: 4.14%;
+right: 82.66%;
+top: 14.96%;
+bottom: 13.3%;
+
+background: linear-gradient(59.52deg, #8B1325 -16.31%, #CB0233 58.21%, #CB0233 70.61%, #8A193F 106.46%);
+
+
+/* Group_11 */
+
+position: absolute;
+left: 9.46%;
+right: 80.57%;
+top: 24.1%;
+bottom: 37.67%;
+
+
+
+/* Group_10 */
+
+position: absolute;
+left: 9.46%;
+right: 80.57%;
+top: 24.1%;
+bottom: 37.67%;
+
+
+
+/* Path_38 */
+
+position: absolute;
+left: 9.46%;
+right: 80.57%;
+top: 24.1%;
+bottom: 37.67%;
+
+background: #FFFFFF;
+
+
+/* Group_13 */
+
+position: absolute;
+left: 17.94%;
+right: 74.58%;
+top: 24.1%;
+bottom: 37.67%;
+
+
+
+/* Group_12 */
+
+position: absolute;
+left: 17.94%;
+right: 74.58%;
+top: 24.1%;
+bottom: 37.67%;
+
+
+
+/* Path_39 */
+
+position: absolute;
+left: 17.94%;
+right: 74.58%;
+top: 24.1%;
+bottom: 37.67%;
+
+background: #FFFFFF;
+
+
+/* Group_14 */
+
+position: absolute;
+left: 40.37%;
+right: 0%;
+top: 9.42%;
+bottom: 56.47%;
+
+
+
+/* Path_40 */
+
+position: absolute;
+left: 40.37%;
+right: 45.97%;
+top: 9.7%;
+bottom: 57.34%;
+
+background: #000000;
+
+
+/* Path_41 */
+
+position: absolute;
+left: 61.21%;
+right: 27.92%;
+top: 9.42%;
+bottom: 57.62%;
+
+background: #000000;
+
+
+/* Path_42 */
+
+position: absolute;
+left: 78.25%;
+right: 13.46%;
+top: 19.67%;
+bottom: 56.47%;
+
+background: #000000;
+
+
+/* Path_43 */
+
+position: absolute;
+left: 87.42%;
+right: 4.29%;
+top: 19.67%;
+bottom: 56.47%;
+
+background: #000000;
+
+
+/* Path_44 */
+
+position: absolute;
+left: 96.01%;
+right: 0%;
+top: 10.25%;
+bottom: 78.67%;
+
+background: #000000;
+
+
+/* Group_15 */
+
+position: absolute;
+left: 71.58%;
+right: 22.24%;
+top: 8.86%;
+bottom: 57.34%;
+
+
+
+/* Path_45 */
+
+position: absolute;
+left: 71.58%;
+right: 22.24%;
+top: 8.86%;
+bottom: 57.34%;
+
+background: #000000;
+
+
+/* Group_16 */
+
+position: absolute;
+left: 40.57%;
+right: 4.69%;
+top: 52.63%;
+bottom: 14.68%;
+
+
+
+/* Path_46 */
+
+position: absolute;
+left: 40.57%;
+right: 52.85%;
+top: 53.19%;
+bottom: 14.68%;
+
+background: #000000;
+
+
+/* Path_47 */
+
+position: absolute;
+left: 49.35%;
+right: 44.17%;
+top: 53.74%;
+bottom: 15.24%;
+
+background: #000000;
+
+
+/* Path_48 */
+
+position: absolute;
+left: 57.12%;
+right: 34.2%;
+top: 52.63%;
+bottom: 14.96%;
+
+background: #000000;
+
+
+/* Path_49 */
+
+position: absolute;
+left: 67.19%;
+right: 23.83%;
+top: 53.74%;
+bottom: 14.96%;
+
+background: #000000;
+
+
+/* Path_50 */
+
+position: absolute;
+left: 78.76%;
+right: 13.06%;
+top: 53.74%;
+bottom: 15.51%;
+
+background: #000000;
+
+
+/* Path_51 */
+
+position: absolute;
+left: 88.83%;
+right: 4.69%;
+top: 53.74%;
+bottom: 15.24%;
+
+background: #000000;
+
+
+/* Path_52 */
+
+position: absolute;
+left: 54.43%;
+right: 39.09%;
+top: 19.94%;
+bottom: 56.74%;
+
+background: #000000;
+
+
+/* norton-antivirus-logo 1 */
+
+width: 82px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 66.53%;
+top: 13.29%;
+bottom: 0.01%;
+
+background: #FEB511;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.43%;
+right: 0%;
+top: 3.41%;
+bottom: 25.14%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.25%;
+right: 63.78%;
+top: 0.01%;
+bottom: 86.61%;
+
+background: #FEB511;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.55%;
+right: 2.15%;
+top: 69.28%;
+bottom: 4.27%;
+
+background: #999999;
+
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 636px;
+height: 76px;
+left: calc(50% - 636px/2 + 0.5px);
+top: 135px;
+
+
+
+/* Wait ! your order in progress. */
+
+width: 636px;
+height: 35px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+/* or 48px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing */
+
+width: 575px;
+height: 17px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 9 */
+
+position: absolute;
+width: 1245px;
+height: 879px;
+left: calc(50% - 1245px/2 + 0.5px);
+top: 351px;
+
+background: #FAFAFA;
+border-radius: 10px;
+
+
+/* image 4 */
+
+position: absolute;
+width: 575px;
+height: 591px;
+left: 40px;
+top: 40px;
+
+background: url(image.png);
+border-radius: 10px;
+
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 550px;
+height: 799px;
+left: 655px;
+top: 40px;
+
+
+
+/* ONE TIME ONLY special price for 6 extra Clarifion for only $14 each ($84.00 total!) */
+
+width: 550px;
+height: 113px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 140%;
+/* or 45px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #2C7EF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 550px;
+height: 135px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 1484578135 */
+
+width: 134px;
+height: 134px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 134px;
+height: 134px;
+left: 0px;
+top: 0.5px;
+
+background: #2C7EF8;
+border-radius: 10px;
+
+
+/* image-removebg-preview (12) 1 */
+
+position: absolute;
+width: 134px;
+height: 134px;
+left: 0px;
+top: 0.5px;
+
+background: url(image-removebg-preview (12).png);
+border-radius: 10px;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 392px;
+height: 135px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 126px;
+
+width: 392px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Clarifion Air Ionizer */
+
+margin: 0 auto;
+width: 173px;
+height: 14px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 11 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 88px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $180 */
+
+width: 37px;
+height: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-decoration-line: line-through;
+text-transform: capitalize;
+
+color: #969696;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $84 */
+
+width: 41px;
+height: 16px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+/* or 31px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #2C7EF8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Stars */
+
+width: 98px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ant-design:star-filled */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 0px;
+top: 31px;
+
+border-radius: 16px;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.65%;
+right: 8.64%;
+top: 6.67%;
+bottom: 14.35%;
+
+background: #FFC000;
+
+
+/* ant-design:star-filled */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 20px;
+top: 31px;
+
+border-radius: 16px;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.64%;
+right: 8.65%;
+top: 6.67%;
+bottom: 14.35%;
+
+background: #FFC000;
+
+
+/* ant-design:star-filled */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 40px;
+top: 31px;
+
+border-radius: 16px;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.64%;
+right: 8.65%;
+top: 6.67%;
+bottom: 14.35%;
+
+background: #FFC000;
+
+
+/* ant-design:star-filled */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 60px;
+top: 31px;
+
+border-radius: 16px;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.65%;
+right: 8.64%;
+top: 6.67%;
+bottom: 14.35%;
+
+background: #FFC000;
+
+
+/* ant-design:star-filled */
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 80px;
+top: 31px;
+
+border-radius: 16px;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.64%;
+right: 8.65%;
+top: 6.67%;
+bottom: 14.35%;
+
+background: #FFC000;
+
+
+/* Frame 193 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 136px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 1000001340 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 94 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 3px;
+
+background: #E3EEFF;
+
+
+/* Ellipse 95 */
+
+position: absolute;
+width: 8.53px;
+height: 8.53px;
+left: 3.79px;
+top: 6.79px;
+
+background: #2C7EF8;
+
+
+/* 12 left in Stock */
+
+width: 104px;
+height: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #37465A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple. */
+
+width: 398px;
+height: 34px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 1000004599 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 550px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 481px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* tick-circle */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/tick-circle */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+
+
+/* tick-circle */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 14px;
+left: calc(50% - 20px/2 - 0px);
+top: calc(50% - 14px/2);
+
+border: 2.5px solid #2C7EF8;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Negative Ion Technology may help with allergens */
+
+width: 447px;
+height: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 23 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 254px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* tick-circle */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/tick-circle */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+
+
+/* tick-circle */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 14px;
+left: calc(50% - 20px/2 - 0px);
+top: calc(50% - 14px/2);
+
+border: 2.5px solid #2C7EF8;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Designed for air rejuvenation */
+
+width: 220px;
+height: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 362px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* tick-circle */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/tick-circle */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+
+
+/* tick-circle */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 14px;
+left: calc(50% - 20px/2 - 0px);
+top: calc(50% - 14px/2);
+
+border: 2.5px solid #2C7EF8;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Perfect for every room in all types of places. */
+
+width: 328px;
+height: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1000004688 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 542px;
+height: 56px;
+
+background: #EDF3FD;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 1000004684 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 441px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 1000004656 */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 120 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+background: #2C7EF8;
+
+
+/* percent */
+
+position: absolute;
+width: 19.2px;
+height: 19.2px;
+left: 6.4px;
+top: 6.4px;
+
+
+
+/* Bounding box */
+
+position: absolute;
+width: 19.2px;
+height: 19.2px;
+left: 6.4px;
+top: 6.4px;
+
+background: #D9D9D9;
+
+
+/* percent */
+
+position: absolute;
+left: 2.18%;
+right: 94.92%;
+top: 30%;
+bottom: 30%;
+
+background: #FFFFFF;
+
+
+/* Save 53% and get 6 extra Clarifision for only $14 Each. */
+
+width: 393px;
+height: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1000004689 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 542px;
+height: 149px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 1000004692 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 542px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004690 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px 64px;
+gap: 10px;
+
+width: 542px;
+height: 59px;
+
+background: #59AE43;
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 136 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 19.76px;
+
+width: 290.76px;
+height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Yes - Claim my discount */
+
+width: 255px;
+height: 27px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 16px;
+height: 0px;
+
+background: #FFFFFF;
+border: 1.97637px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1000004691 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 16px;
+
+width: 542px;
+height: 33px;
+
+border: 1px solid #CFCFCF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Free shipping */
+
+width: 76px;
+height: 17px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+text-transform: capitalize;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 16px;
+height: 0px;
+
+border: 1px solid #CFCFCF;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1000001268 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 194px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* lock (7) 1 */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 15.62%;
+top: 45.83%;
+bottom: 8.34%;
+
+border: 1.33333px solid #696969;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.05%;
+right: 32.28%;
+top: 8.33%;
+bottom: 54.17%;
+
+border: 1.33333px solid #696969;
+
+
+/* Secure 256-bit SSL encryption. */
+
+width: 172px;
+height: 9px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+text-transform: capitalize;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 3 */
+
+width: 16px;
+height: 0px;
+
+border: 1px solid #CFCFCF;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 1000001777 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 180px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* visa */
+
+width: 24px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 7 */
+
+position: absolute;
+width: 24px;
+height: 14px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+opacity: 0.07;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.63%;
+right: 2.63%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.16%;
+right: 17.89%;
+top: 33.33%;
+bottom: 33.33%;
+
+background: #142688;
+
+
+/* shop pay */
+
+width: 24px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 8 */
+
+position: absolute;
+width: 24px;
+height: 14px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+opacity: 0.07;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.63%;
+right: 2.63%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #5A31F4;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.66%;
+right: 12.77%;
+top: 26.67%;
+bottom: 26.57%;
+
+background: #FFFFFF;
+
+
+/* paypal */
+
+width: 24px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 13 */
+
+position: absolute;
+width: 24px;
+height: 14px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+opacity: 0.07;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.63%;
+right: 2.63%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 36.84%;
+right: 36.91%;
+top: 20.83%;
+bottom: 33.33%;
+
+background: #003087;
+
+
+/* Vector */
+
+position: absolute;
+left: 43.68%;
+right: 34.48%;
+top: 34.58%;
+bottom: 24.58%;
+
+background: #3086C8;
+
+
+/* Vector */
+
+position: absolute;
+left: 45.79%;
+right: 37.11%;
+top: 32.5%;
+bottom: 46.67%;
+
+background: #012169;
+
+
+/* mastercard */
+
+width: 24px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Group 6 */
+
+position: absolute;
+width: 24px;
+height: 14px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+opacity: 0.07;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.63%;
+right: 2.63%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.05%;
+right: 42.11%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #EB001B;
+
+
+/* Vector */
+
+position: absolute;
+left: 42.11%;
+right: 21.05%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #FFC000;
+
+
+/* Vector */
+
+position: absolute;
+left: 42.11%;
+right: 42.1%;
+top: 26.25%;
+bottom: 26.25%;
+
+background: #FF5F00;
+
+
+/* gpay */
+
+width: 24px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Group 10 */
+
+position: absolute;
+width: 24px;
+height: 14px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+opacity: 0.07;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.63%;
+right: 2.63%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 44.93%;
+right: 14.27%;
+top: 30.32%;
+bottom: 26.83%;
+
+background: #5F6368;
+
+
+/* Vector */
+
+position: absolute;
+left: 25.33%;
+right: 63.19%;
+top: 43.18%;
+bottom: 39.09%;
+
+background: #4285F4;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.67%;
+right: 66.74%;
+top: 50.18%;
+bottom: 34.49%;
+
+background: #34A853;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.4%;
+right: 81.37%;
+top: 38.11%;
+bottom: 44.92%;
+
+background: #FFC000;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.67%;
+right: 66.66%;
+top: 27.68%;
+bottom: 57.02%;
+
+background: #EA4335;
+
+
+/* apple pay */
+
+width: 24px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0.67%;
+right: 0.67%;
+top: 0%;
+bottom: 0%;
+
+background: #E4E4E4;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.78%;
+right: 2.78%;
+top: 3.33%;
+bottom: 3.33%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.18%;
+right: 67.09%;
+top: 27.6%;
+bottom: 34%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 39.36%;
+right: 13.42%;
+top: 30.3%;
+bottom: 24.68%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 39.36%;
+right: 13.42%;
+top: 30.3%;
+bottom: 24.68%;
+
+background: #000000;
+
+
+/* amex */
+
+width: 24px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+opacity: 0.07;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.63%;
+right: 2.63%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #006FCF;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.53%;
+right: 10.49%;
+top: 33.33%;
+bottom: 34.67%;
+
+background: #FFFFFF;
+
+
+/* No thanks, I don’t want this. */
+
+width: 269px;
+height: 25px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #F82C2C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1484578044 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 550px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* image 6 */
+
+width: 88px;
+height: 88px;
+
+background: url(image);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* If you are not completely thrilled with your Clarifion - We have a 30 day satisfaction guarantee. Please refer to our return policy at the bottom of the page for more details. Happy Shopping! */
+
+width: 446px;
+height: 78px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1484578050 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 18px;
+
+position: absolute;
+width: 575px;
+height: 186px;
+left: 40px;
+top: 655px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Frame 1484578045 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+width: 237px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 1127 */
+
+width: 48px;
+height: 48px;
+
+background: url(image);
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* name */
+
+width: 176px;
+height: 35.3px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Stars */
+
+position: absolute;
+width: 78.11px;
+height: 11.95px;
+left: 61px;
+top: 6.35px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 11.95px;
+height: 11.95px;
+left: 61px;
+top: 6.35px;
+
+background: #FBBC04;
+
+
+/* Vector */
+
+position: absolute;
+width: 11.95px;
+height: 11.95px;
+left: 77.54px;
+top: 6.35px;
+
+background: #FBBC04;
+
+
+/* Vector */
+
+position: absolute;
+width: 11.95px;
+height: 11.95px;
+left: 94.08px;
+top: 6.35px;
+
+background: #FBBC04;
+
+
+/* Vector */
+
+position: absolute;
+width: 11.95px;
+height: 11.95px;
+left: 110.62px;
+top: 6.35px;
+
+background: #FBBC04;
+
+
+/* Vector */
+
+position: absolute;
+width: 11.95px;
+height: 11.95px;
+left: 127.16px;
+top: 6.35px;
+
+background: #FBBC04;
+
+
+/* Frame 1000004527 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 176px;
+height: 16px;
+left: 61px;
+top: 25.65px;
+
+
+
+/* Ken T. */
+
+width: 40px;
+height: 14px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* verify */
+
+width: 126px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Verified Customer */
+
+position: absolute;
+width: 100px;
+height: 14px;
+left: 76px;
+top: 1px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+/* or 14px */
+
+color: #5BB59A;
+
+
+
+/* verify 1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 50px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0.03%;
+top: 0%;
+bottom: 0%;
+
+background: #5BB59A;
+
+
+/* “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.” */
+
+width: 527px;
+height: 72px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #4D5254;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004694 */
+
+position: absolute;
+width: 1500px;
+height: 88px;
+left: 0px;
+bottom: 0px;
+
+background: #252F3D;
+
+
+/* Frame 1000004692 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px;
+gap: 16px;
+
+position: absolute;
+width: 401px;
+height: 40px;
+left: 127px;
+top: 24px;
+
+border-radius: 4px;
+
+
+/* Copyright (c) 2023 */
+
+width: 141px;
+height: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 24px;
+height: 0px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Clarifionsupport@clarifion.com */
+
+width: 228px;
+height: 22px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+text-transform: lowercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 1000001268 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 261px;
+height: 16px;
+left: 1120px;
+top: 36px;
+
+
+
+/* lock (7) 1 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 15.62%;
+top: 45.83%;
+bottom: 8.34%;
+
+border: 1.33333px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.05%;
+right: 32.28%;
+top: 8.33%;
+bottom: 54.17%;
+
+border: 1.33333px solid #FFFFFF;
+
+
+/* Secure 256-bit SSL encryption. */
+
+width: 229px;
+height: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1484578043 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 94px;
+
+position: absolute;
+width: 1245px;
+height: 40px;
+left: calc(50% - 1245px/2 + 0.5px);
+top: 271px;
+
+
+
+/* Frame 1484578037 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+margin: 0 auto;
+width: 240px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 1484578147 */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #85BF55;
+border: 2px solid #85BF55;
+
+
+/* tick-circle */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 12px;
+top: 12px;
+
+
+
+/* vuesax/linear/tick-circle */
+
+position: absolute;
+width: 20px;
+height: 16px;
+left: -2px;
+top: 0px;
+
+
+
+/* tick-circle */
+
+position: absolute;
+width: 20px;
+height: 16px;
+left: -2px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 14px;
+left: calc(50% - 20px/2 - 0px);
+top: calc(50% - 14px/2);
+
+border: 2.5px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Step 1 : Cart Review */
+
+width: 180px;
+height: 14px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1484578038 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+margin: 0 auto;
+width: 223px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 1484578148 */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #85BF55;
+border: 2px solid #85BF55;
+
+
+/* tick-circle */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 12px;
+top: 12px;
+
+
+
+/* vuesax/linear/tick-circle */
+
+position: absolute;
+width: 20px;
+height: 16px;
+left: -2px;
+top: 0px;
+
+
+
+/* tick-circle */
+
+position: absolute;
+width: 20px;
+height: 16px;
+left: -2px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 14px;
+left: calc(50% - 20px/2 - 0px);
+top: calc(50% - 14px/2);
+
+border: 2.5px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Step 2 : Checkout */
+
+width: 163px;
+height: 14px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1484578036 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+margin: 0 auto;
+width: 261px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 1484578146 */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 48 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #2C7EF8;
+border: 2px solid #2C7EF8;
+
+
+/* 3 */
+
+position: absolute;
+width: 12px;
+height: 14px;
+left: 14px;
+top: 13px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Step 3 : Special Offer */
+
+width: 201px;
+height: 14px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 110%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1484578035 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+margin: 0 auto;
+width: 255px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Group 1484578146 */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 49 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+border: 2px solid #2C7EF8;
+
+
+/* 4 */
+
+position: absolute;
+width: 12px;
+height: 14px;
+left: 14px;
+top: 13px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #2C7EF8;
+
+
+
+/* Step 4 : Confirmation */
+
+width: 195px;
+height: 14px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+/* or 22px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

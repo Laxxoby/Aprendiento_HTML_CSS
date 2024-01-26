@@ -1,0 +1,106 @@
+html {
+    background: #2d23e8 url("../images/wallhaven-qzg5vq.jpg") 10px 10px repeat-x fixed;
+}
+
+.special {
+    color: red;
+}
+
+body {
+    background-color: rgb(210, 106, 195);
+}
+
+
+@media (min-width: 980px) {
+    body {
+        background-color: rgb(155, 66, 250);
+    }
+}
+
+p {
+    color: blue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #e5cee6;
+    border: 1px solid black;
+}
+
+.outer {
+    border: 5px solid black;
+}
+
+.box {
+    padding: 10px;
+    width: calc(90% - 30px);
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.box1 {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.7turn)
+}
+
+/* con elementos básicos de aplicación de estilo */
+/* -------------------------------------------------------------------------------------------- */
+body {
+    font: 1em/150% Helvética, Arial, sans-serif;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 33em;
+}
+
+@media (min-width: 70em) {
+
+    /* Prestemos especial atención al tamaño de fuente global. En una pantalla o una ventana grande,
+       aumentamos el tamaño de la fuente para conseguir una mejor legibilidad */
+    body {
+        font-size: 130%;
+    }
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+/* Familiarización con algunos elementos anidados específicos en el DOM */
+/* -------------------------------------------------------------------------------------------- */
+div p,
+#id:first-line {
+    background-color: rgb(235, 207, 231);
+    border-radius: 3px;
+}
+
+div p {
+    margin: 0;
+    padding: 1em;
+}
+
+div p+p {
+    padding-top: 0;
+}
+
+.ejemplo {
+    border-bottom: 2px solid blue;
+  }
+  

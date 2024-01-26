@@ -1,0 +1,132 @@
+body {
+    
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.4;
+    padding-inline: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: #28d386;
+}
+
+a:visited {
+    color: #d833bf;
+}
+
+a:focus {
+    border-bottom: 1px solid;
+    background: #bae498;
+    border-radius: 0.3em;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: #cdfeaa;
+    border-radius: 0.3em;
+}
+
+a:active {
+    background: #265301;
+    color: #cdfeaa;
+    border-radius: 0.3em;
+} */
+
+.icon a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+.icon a:link {
+    color: blue;
+}
+
+.icon a:visited {
+    color: purple;
+}
+
+.icon a:focus,
+.icon a:hover {
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+
+.icon a:active {
+    color: red;
+}
+
+.icon a[href*="http"] {
+    background: url("../images/icons8-external-link-26.png") no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+}
+
+.boton {
+    width: 100%;
+    block-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    margin: 0 0;
+}
+
+.boton ul {
+    padding: 0;
+    margin: 0 ;
+    width: 100%;
+}
+
+.boton li {
+    display: inline;
+    
+}
+
+.boton a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 15.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    border: 1px solid #16270805 ;
+    border-radius: 8px;
+}
+
+.boton li:last-child a {
+    margin-right: 0;
+}
+
+.boton a:link,
+.boton a:visited,
+.boton a:focus {
+    background: rgb(115, 255, 0);
+}
+
+.boton a:hover {
+    background: orange;
+}
+
+.boton a:active {
+    background: red;
+    color: white;
+}

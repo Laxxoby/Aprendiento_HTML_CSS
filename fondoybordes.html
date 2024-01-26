@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fondos y bordes en CSS</title>
+    <link href="styles/fondoybordes.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <h1>Fondos y bordes</h1>
+    <div class="box">box SSS</div>
+
+    <div class="box1">
+        <h2>Background Colors</h2>
+        <p>Try changing the background <span>colors</span>.</p>
+    </div>
+
+    <div class="box2">box SSS</div>
+
+    <h1>Background attachment example</h1>
+
+    <section>
+        <article class="scroll">
+
+            <p><code>background-attachment: scroll</code> causes the element's background to be fixed to the page, so
+                that it scrolls when the page is scrolled. If the element content is scrolled, the background does not
+                move.</p>
+
+            <pre></pre>
+
+        </article>
+
+        <article class="fixed">
+
+            <p><code>background-attachment: fixed</code> causes an element's background to be fixed to the viewport, so
+                that it doesn't scroll when the page or element content is scrolled. It will always remain in the same
+                position on the screen.</p>
+
+            <pre></pre>
+
+        </article>
+
+        <article class="local">
+
+            <p><code>background-attachment: local</code>, new to CSS3, causes an element's background to be fixed to the
+                actual element itself. So When the page is scrolled, the element's background will move along with it
+                only if the element does so (so not in the case of elements with <code>position: fixed</code>.) When the
+                element's content is scrolled, the background will scroll along with it.</p>
+
+            <pre></pre>
+
+        </article>
+    </section>
+
+    <h2>Bordes</h2>
+
+    <div class="Bordes"> Bordes</div>
+
+    <div class="wrapper">
+        <div class="box3 horizontal">
+            <h2>Heading</h2>
+            <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+            <p>These boxes have a width.</p>
+        </div>
+        <div class="box3 vertical">
+            <h2>Heading</h2>
+            <p>A paragraph. Demonstrating Writing Modes in CSS.</p>
+            <p>These boxes have a width.</p>
+            <p>These boxes have a width.</p>
+            <p>These boxes have a width.</p>
+            <p>These boxes have a width.</p>
+            <p>These boxes have a width.</p>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="box4 physical">
+            <h2>Physical Properties</h2>
+            <p>A paragraph. Demonstrating Logical Properties in CSS.</p>
+        </div>
+        <div class="box4 logical">
+            <h2>Logical Properties</h2>
+            <p>A paragraph. Demonstrating Logical Properties in CSS.</p>
+        </div>
+    </div>
+
+    <div class="box5">Horizontal.</div>
+    <div class="box5 vertical1">Vertical.</div>
+
+    <form>
+        <div><label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div><label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="buttons"><input type="submit" value="Submit"></div>
+    </form>
+
+    <table>
+        <caption>A summary of the UK's most famous punk bands</caption>
+        <thead>
+            <tr>
+                <th scope="col">Band</th>
+                <th scope="col">Year formed</th>
+                <th scope="col">No. of Albums</th>
+                <th scope="col">Most famous song</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Buzzcocks</th>
+                <td>1976</td>
+                <td>9</td>
+                <td>Ever fallen in love (with someone you shouldn't've)</td>
+            </tr>
+            <tr>
+                <th scope="row">The Clash</th>
+                <td>1976</td>
+                <td>6</td>
+                <td>London Calling</td>
+            </tr>
+            <tr>
+                <th scope="row">The Damned</th>
+                <td>1976</td>
+                <td>10</td>
+                <td>Smash it up</td>
+            </tr>
+            <tr>
+                <th scope="row">Sex Pistols</th>
+                <td>1975</td>
+                <td>1</td>
+                <td>Anarchy in the UK</td>
+            </tr>
+            <tr>
+                <th scope="row">Sham 69</th>
+                <td>1976</td>
+                <td>13</td>
+                <td>If The Kids Are United</td>
+            </tr>
+            <tr>
+                <th scope="row">Siouxsie and the Banshees</th>
+                <td>1976</td>
+                <td>11</td>
+                <td>Hong Kong Garden</td>
+            </tr>
+            <tr>
+                <th scope="row">Stiff Little Fingers</th>
+                <td>1977</td>
+                <td>10</td>
+                <td>Suspect Device</td>
+            </tr>
+            <tr>
+                <th scope="row">The Stranglers</th>
+                <td>1974</td>
+                <td>17</td>
+                <td>No More Heroes</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total albums</th>
+                <td colspan="2">77</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

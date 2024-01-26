@@ -1,0 +1,49 @@
+.links-list a {
+    background-color: rgb(179, 57, 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block
+}
+
+.links-list a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    display: inline-block;
+}
+
+
+
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+.alternate {
+    box-sizing: border-box;
+    width: 390px;
+}
+
+.container .box1 {
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+
+.box2 span {
+    background-color: pink;
+    border: 5px solid black;
+    padding: 1em;
+    display: inline-block;
+}

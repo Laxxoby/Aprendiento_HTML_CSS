@@ -1,0 +1,324 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(../images/beautiful_sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+/* Fondos y Sus propiedades */
+
+/* .box {
+    background: linear-gradient(105deg, rgba(255, 255, 255, .2) 39%, rgba(51, 56, 57, 1) 96%) center center / 400px 200px no-repeat,
+        url(../images/otaku_icon.png) center no-repeat, rebeccapurple;
+    background-size: contain;
+    padding: 40px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+    background-position: top 20px right 10px;
+} */
+
+.box {
+    background:
+        linear-gradient(105deg, rgba(255, 255, 255, .2) 39%, rgba(51, 56, 57, 1) 96%) center center / 400px 200px no-repeat,
+        url(../images/otaku_icon.png) center / 100px 100px no-repeat,
+        rgb(78, 4, 152);
+    padding: 40px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+}
+
+
+.box1 {
+    background-color: #567895;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+}
+
+span {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.box2 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-size: contain;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/otaku_icon.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 1%;
+    overflow: auto;
+}
+
+article pre {
+    height: 800px;
+}
+
+.fixed,
+.scroll {
+    margin-right: 1%;
+}
+
+.fixed {
+    background-attachment: fixed;
+}
+
+.scroll {
+    background-attachment: scroll;
+}
+
+.local {
+    background-attachment: local;
+}
+
+footer {
+    clear: both;
+}
+
+
+/* BORDES y sus propiedades */
+
+.Bordes {
+    background-color: #2d73af;
+    border: 15px solid #0d2a42;
+    border-bottom-style: dashed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    /* Asegura que ocupe el 100% del alto de la ventana del navegador */
+    border-radius: 200px 200px;
+    border-top-right-radius: 1em 10%;
+
+}
+
+.box3 {
+    inline-size: 150px;
+    border: 2px solid black;
+}
+
+.horizontal {
+    writing-mode: horizontal-tb;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+}
+
+.box4 {
+    inline-size: 200px;
+    writing-mode: vertical-rl;
+    /* Cambiar entre vertical-rl y horizontal-tb para ver la diferencia de 
+    Propiedades lógicas a Fisicas. */
+    background-color: #569fde;
+}
+
+.logical {
+    margin-block-start: 20px;
+    padding-inline-end: 2em;
+    padding-block-start: 2px;
+    border-block-start: 5px solid pink;
+    border-inline-end: 10px dotted rebeccapurple;
+    border-block-end: 1em double orange;
+    border-inline-start: 1px solid black;
+}
+
+.physical {
+    margin-top: 20px;
+    padding-right: 2em;
+    padding-top: 2px;
+    border-top: 5px solid pink;
+    border-right: 10px dotted rebeccapurple;
+    border-bottom: 1em double orange;
+    border-left: 1px solid black;
+}
+
+h2 {
+    border-bottom: 5px solid black;
+
+}
+
+.box5 {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 200px;
+    height: 100px;
+}
+
+.vertical1 {
+    writing-mode: vertical-rl;
+    margin-block-start: 40px;
+    padding-inline-end: 40px;
+    padding-block-start: 40px;
+    inline-size: 200px;
+    block-size: 100px;
+
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 2px solid #000;
+    margin: 0 0 1em 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #4761e4;
+}
+
+input[type="submit"] {
+    border: 3px solid #333;
+    background-color: #4761e4;
+    border-radius: 10px;
+    padding: 10px 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #47f01d;
+}
+
+/* Herencia y elementos de formulario
+ */
+/* En algunos navegadores, los elementos de formulario no heredan el estilo de letra por defecto. 
+Por lo tanto, si deseas asegurarte de que tus campos de formulario usan la 
+letra que se define para el cuerpo o para un elemento principal, debes añadir esta regla a tu CSS.
+ */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+/* typography */
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+thead,
+tfoot {
+    background: url(../images/leopardskin.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    border: 3px solid purple;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
+
+tbody tr {
+    background-image: url(../images/noise.png);
+}
+
+table {
+    background-color: #ff33cc;
+}
+
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+  }
+  

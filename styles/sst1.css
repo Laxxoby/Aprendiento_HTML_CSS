@@ -1,0 +1,28 @@
+
+  .triangle-container{
+    width: 500px;
+    margin: auto;
+    text-align:center;
+    border: 1px solid rgb(85, 223, 138);
+    
+      &:hover, &:active{
+        .triangle{
+          transform: rotate(-180deg); 
+        }
+      }
+    
+    .triangle{
+      fill: transparent;
+      stroke: rgb(106, 181, 107);
+      stroke-width: 8;
+      transition: all 0.8s ease-in-out;
+    
+    @keyframes mymove {
+      0%   {opacity:0}
+      50%  {opacity:1}
+      100% {opacity:0}
+    }
+      
+      transform-origin: 250px 250px;
+    }
+  }

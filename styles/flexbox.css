@@ -1,0 +1,127 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: rgb(247, 96, 247);
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(99, 246, 246);
+}
+
+/* Add your flexbox CSS below here */
+
+section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mul {
+    flex-flow: row wrap;
+    /* Regla abreviada de flex-direction y flex-wrap */
+}
+
+.mul article {
+    flex: 200px;
+}
+
+.flexflex {
+    flex-flow: row wrap;
+}
+
+.flexflex article {
+    flex: 1 200px;
+}
+
+.flexflex article:nth-of-type(3) {
+    flex: 2 200px;
+}
+
+/* Esto establece básicamente que «a cada elemento flexible se le da primero 200px del espacio disponible. Después de eso, el resto del espacio disponible se reparte de acuerdo con las unidades de proporción». Actualiza y observa de qué modo se reparte ahora el espacio. */
+
+/* ---------Alineación horizontal y vertical---------- */
+button {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 15%;
+}
+
+div {
+    height: 100px;
+    border: 1px solid black;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* button:first-child {
+    align-self: flex-end;  quitar la aliniacion general y dar una particualar a algo especifico
+} */
+
+/* -----------Ordenar los elementos flexibles-------------- */
+button:first-child {
+    order: 1;
+}
+
+button:last-child {
+    order: -1;
+}
+
+/* ---------Cajas flexibles anidadas---------- */
+
+.flexflexflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexflexflex article {
+    flex: 1 200px;
+}
+
+.flexflexflex article:nth-of-type(3) {
+    flex: 3 200px;
+    display: flex;
+    flex-flow: column;
+}
+
+.flexflexflex article:nth-of-type(3) h2 {
+    order: -2;
+}
+
+.flexflexflex article:nth-of-type(3) div {
+    order: -1;
+}
+
+.flexflexflex article:nth-of-type(3) div{
+    flex: 1 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+}

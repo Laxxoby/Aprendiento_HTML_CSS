@@ -1,0 +1,113 @@
+/* 
+
+
+
+
+
+
+
+*/
+
+/* ----- Media Queries ----- */
+@media screen and (min-width: 80rem) {
+    .container {
+        margin: 1em 2em;
+    }
+}
+
+/* ------ Responsive layout technologies -------- */
+/* --- Multicol --- */
+.container {
+    column-count: 3;
+}
+
+.container {
+    column-width: 10em;
+}
+
+/* ---- Flexbox ---- */
+.container {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+}
+
+/* Ejemplo */
+body {
+    font: 1.2em Helvetica, Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #eee;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 2em auto;
+}
+
+.col1,
+.col2 {
+    background-color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        display: flex;
+    }
+
+    .col1 {
+        flex: 1;
+        margin-right: 5%;
+    }
+
+    .col2 {
+        flex: 2;
+    }
+}
+
+/*  ----- CSS grid ----- */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* -------- Responsive images ---------   */
+img,
+picture,
+video {
+    max-width: 100%;
+}
+
+
+/* ----- Responsive typography ------ */
+/* -- Using media queries for responsive typography -- */
+html {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+/* --- Using viewport units for responsive typography --- */
+h1 {
+    font-size: 6vw;
+    /* El problema es que no se puede hacer zoom */
+}
+
+h1 {
+    font-size: calc(1.5rem + 3vw);
+}
+
+/* --------------- The viewport meta tag ---------------- */
+/* tag = <meta name="viewport" content="width=device-width,initial-scale=1" /> */
+/* Esta metaetiqueta indica a los navegadores móviles que deben ajustar el ancho de la ventana al ancho del dispositivo y escalar el documento al 100% de su tamaño previsto, lo que muestra el documento en el tamaño optimizado para móviles que usted pretendía. */

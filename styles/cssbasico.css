@@ -1,0 +1,55 @@
+html {
+    font-size: 10px;
+    /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Open Sans", sans-serif;
+    /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    background-color: #ef9929;
+
+}
+
+body {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #FF9500;
+    padding: 0 200px 200px 200px;
+    border: 10px solid black;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(102, 80, 214);
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+#mi-id {
+    color: rgb(108, 202, 133);
+}
+
+#mi-id:hover a {
+    color: rgb(102, 80, 214);
+}
+
+
+.mi-clase {
+    color: rgb(158, 86, 147);
+}
+
+a:hover {
+    color: rgb(7, 196, 92);
+}

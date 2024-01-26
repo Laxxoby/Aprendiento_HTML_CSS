@@ -1,0 +1,14 @@
+html {
+    background-color: rgb(0, 135, 145);
+    font-size: 20px;
+  }
+  
+  ul {
+    background: blueviolet;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
