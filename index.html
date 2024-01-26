@@ -3,15 +3,13 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Mi página de prueba</title>
-
-  <link rel="stylesheet" href="styles/sst1.css" /> <!-- CSS -->
-  <script src="scripts/my_javascript.js" defer></script> <!-- Javascript -->
-
   <meta name="author" content="Johan Camilo" />
   <meta name="description" content="Estoy aprendiendo jiji" />
-  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" /> <!-- ICono -->
 
+  <link rel="stylesheet" href="styles/sst1.css" /> <!-- CSS -->
+  <link rel="stylesheet" href="styles/styleGeneral.css">
+
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" /> <!-- ICono -->
   <!-- iPad de tercera generación con pantalla de alta resolución: -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon.png" />
   <!-- iPhone con pantalla de alta resolución: -->
@@ -23,531 +21,742 @@
   <!-- favicon básico -->
   <link rel="shortcut icon" href="images/icon.png" />
 
+  <script src="scripts/my_javascript.js" defer></script> <!-- Javascript -->
+
+  <title>Mi página de prueba</title>
 </head>
 
 <body>
-  <h1>Mi título principal</h1>
-  <h2>Mi título de nivel superior</h2>
-  <h3>Mi subtítulo</h3>
-  <h4>Mi sub-subtítulo</h4>
-
-  <h1>Imagen escalada con enlace asi misma</h1>
-  <a href="images/redhair.png">
-    <img src="images/redhair.png" width="600" height="400" alt="Mi imagen de prueba/ Imagen escalada">
-  </a>
-  <p>Quieres ver una imagen más? <a href="#ImgUwU" title="Img UwU">Aquí</a></p>
-
-  <p>Mi gato es muy gruñon</p>
-  <a href="index1.html" title="Hola pipi" target="_blank">Ir a otra página</a>
-  <p><a href="index2.html" title="Hola papi">Ir a otra página mas ejemplos (metadatos)</a></p>
-  <p><a href="index3.html" title="Hola papi">Ir a otra página mas ejemplos (metadatos)</a></p>
-  <p><a href="indexm.html" title="Menu">Ejemplo de menú de navegación</a></p>
-  <p><a href="reseta.html" title="receta UwU">Ir a receta</a></p>
-  <p><a href="Whales.html" title="Ejemplo 1 enlace">Ejemplo 1 enlace</a></p>
-  <p>¿quieres saber que comprar para la receta?<a href="reseta.html#ingre" title="Ingredientes receta UwU">Ingredientes
-      de receta</a></p>
-
-  <p>listar ejemplos:</p>
-  <p>Desordenada</p>
-  <p>En Mozilla, somos una comunidad de</p>
-
-  <ul>
-    <li>tecnólogos</li>
-    <li>pensadores</li>
-    <li>constructores</li>
-  </ul>
-
-  <p>trabajando juntos... </p>
-
-  <p>Ordenada</p>
-  <ol>
-    <li>Huevos</li>
-    <li>Leche</li>
-    <li>Panela</li>
-  </ol>
-
-  <p>Cuantos comprar?</p>
-  <!-- el uso del atributo deshabilitado evita que el usuario final introduzca texto en el cuadro de entrada -->
-  <input type="text" disabled />
-
-  <!-- se permite la entrada de texto, ya que no contiene el atributo deshabilitado -->
-  <input type="text" />
-
-  <p>Ejemplo en japonés: <span lang="ja">ご飯が熱い。</span></p>
-
-  <span style="font-size: 32px; margin: 21px 0;">¿Es este un titular de primer rango?</span>
-
-  <p>Me <em>alegro</em> de que no llegues <em>tarde</em>.</p>
-
-  <p>Este líquido es <strong>altamente tóxico</strong>.</p>
-
-  <p>Cuento contigo. <strong>¡No llegues tarde!</strong></p>
-
-  <p>
-    Este líquido es <strong>altamente tóxico</strong> — si lo bebes,
-    <strong>podrías <em>morir</em></strong>.
-  </p>
-
-  <!-- nombres científicos -->
-  <p>
-    El colibrí garganta de rubí (<i>Archilochus colubris</i>) es el colibrí más
-    común en el este de América del Norte.
-  </p>
-
-  <!-- extranjerismos -->
-  <p>
-    El menú era un mar de palabras exóticas como <i lang="uk-latn">vatrushka</i>,
-    <i lang="id">nasi goreng</i> y <i lang="fr">soupe à l'oignon</i>.
-  </p>
-
-  <!-- un error ortográfico reconocido -->
-  <p>Algún día aprenderé a deletrear mejor.</p>
-
-  <!-- Palabras clave destacadas en una serie de instrucciones -->
-  <ol>
-    <li><b>Corta</b> dos piezas de la hogaza de pan.</li>
-    <li>
-      <b>Inserta</b> una rodaja de tomate y una hoja de lechuga entre las
-      rebanadas de pan.
-    </li>
-  </ol>
-
-  <p>
-    Crea un enlace a
-    <a href="https://www.mozilla.org/es-ES/" title="El mejor lugar para encontrar más información acerca de la misión de Mozilla
-          y cómo contribuir">la página de inicio de Mozilla</a>.
-  </p>
-
-  <p>
-    <a href="http://www.example.com/large-report.pdf">
-      Descarga el informe de ventas (PDF, 10MB)
-    </a>
-  </p>
-
-  <p>
-    <a href="https://youtu.be/EhGz8XLCDgg">
-      Reproduce el vídeo (el flujo de datos se abre en una pestaña independiente,
-      calidad HD)
-    </a>
-  </p>
-
-  <p>
-    <a href="https://www.minijuegos.com/juego/fl-tron-2-0">
-      Juega al juego del automóvil (requiere Flash)
-    </a>
-  </p>
-
-  <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=es-MX"
-    download="firefox-latest-64bit-installer.exe">
-    Descarga la última versión de Firefox para Windows (64 bits) (Español, es-MX)
-  </a>
-
-  <p><a href="mailto:nowhere@mozilla.org">Enviar correo electrónico a ninguna parte</a></p>
-
-
-  <h2>Ejemplo Lista de descricion</h2>
-  <dl>
-    <dt>Soliloquio</dt>
-    <dd>
-      En las obras dramáticas, corresponde a cuando un personaje se habla a sí
-      mismo para representar sus pensamientos o sentimientos internos y, en el
-      proceso, transmitirlos a la audiencia (pero no a otros personajes).
-    </dd>
-    <dt>Monólogo</dt>
-    <dd>
-      En las obras dramáticas, corresponde a cuando un personaje habla de sus
-      pensamientos en voz alta para compartirlos con el público y cualquier otro
-      personaje presente.
-    </dd>
-    <dt>aparte</dt>
-    <dd>
-      En las obras dramáticas, corresponde a cuando un personaje comparte un
-      comentario solo con la audiencia para dar efecto cómico o dramático. Suele
-      ser un sentimiento, un pensamiento o información adicional.
-    </dd>
-    <dd>
-      Si la obra es impresa, es una sección de contenido que se relaciona con el
-      tema, pero no encaja directamente en el flujo principal de contenido, de
-      modo que se presenta por separado (a menudo en una caja de texto en el
-      margen).
-    </dd>
-  </dl>
-
-  <p>
-    El <strong>elemento HTML <code>&lt;blockquote&gt;</code></strong> (o
-    <em>elemento HTML de cita en bloque independiente</em>) indica que el texto al
-    que delimita es una cita ampliada.
-  </p>
-
-  <p>A continuación se muestra una cita en bloque independiente...</p>
-  <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
-    <p>
-      El <strong>elemento HTML <code>&lt;blockquote&gt;</code></strong> (o
-      <em>elemento HTML de cita en bloque independiente</em>) indica que el texto
-      al que delimita es una cita ampliada.
-    </p>
-  </blockquote>
-
-  <p>
-    El elemento de cita — <code>&lt;q&gt;</code> — se
-    <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">utiliza en para citas breves que no requieren
-      saltos de párrafo.</q>
-  </p>
-
-  <h2>Citas</h2>
-
-  <p>
-    De acuerdo con
-    <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
-      <cite>página de citas en bloque independiente de MDN</cite></a>:
-  </p>
-
-  <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
-    <p>
-      El <strong>elemento HTML <code>&lt;blockquote&gt;</code></strong> (o
-      <em>elemento HTML de cita en bloque independiente</em>) indica que el texto
-      al que delimita es una cita ampliada.
-    </p>
-  </blockquote>
-
-  <p>
-    El elemento de cita — <code>&lt;q&gt;</code> — se
-    <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">utiliza en citas breves que no requieren
-      saltos de párrafo.</q>
-    --
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
-      <cite>página q de MDN</cite></a>.
-  </p>
-
-  <p>Hola y bienvenido a mi página de motivación. Como dice <a
-      href="http://www.brainyquote.com/quotes/authors/c/confucius.html"><cite>el sitio de citas de Confucio:</cite></a>:
-  </p>
-
-  <blockquote cite="http://www.brainyquote.com/quotes/authors/c/confucius.html">
-    <p>No importa qué tan lento vayas siempre que no te detengas.</p>
-  </blockquote>
-
-  <p>También me encanta el concepto de pensamiento positivo y <q
-      cite="http://www.affirmationsforpositivethinking.com">La ne
-      cesidad de eliminar el diálogo interno negativo</q> (como se menciona en <a
-      href="http://www.affirmationsforpositivethinking.com">
-      <cite>Afirmaciones para el pensamiento positivo</cite></a>).</p>
-
-
-  <h2>Abreviatura</h2>
-
-  <p>
-    Usamos <abbr title="Lenguaje de marcado de hipertexto">HTML</abbr> para
-    estructurar nuestros documentos web.
-  </p>
-
-  <p>
-    Creo que el <abbr title="Reverendo">Rev.</abbr> Green lo hizo en la cocina con
-    la motosierra.
-  </p>
-
-  <h2>Marcar la información de contacto</h2>
-
-  <address>
-    <p>Chris Mills, Manchester, The Grim North, Reino Unido</p>
-  </address>
-
-  <address>
-    <p>
-      Chris Mills<br />
-      Manchester<br />
-      The Grim North<br />
-      Reino Unido
-    </p>
+  <div class="barraIndece">
+    <h1>Índice</h1>
 
     <ul>
-      <li>Tel: 01234 567 890</li>
-      <li>Email: me@grim-north.co.uk</li>
+      <li><a href="#Titles">Titles</a></li>
+      <li><a href="#Imaenlace">Imagen y enlace</a></li>
+      <li><a href="#primerP">Primer Parrafo</a></li>
+      <li><a href="#primerE">Primer Enlace</a></li>
+      <li><a href="#Enlace1">Enlace ejemplo 1</a></li>
+      <li><a href="#Enlace2">Enlace ejemplo 2</a></li>
+      <li><a href="#Enlace3">Menu de navegación</a></li>
+      <li><a href="#Enlace4">Enlace concreto</a></li>
+      <li><a href="#listas">Listas</a></li>
+
+      <li><a href="#Input-text">Input text</a></li>
+      <li><a href="#span">Span</a></li>
+      <li><a href="#enfasis">Modificadores/Énfasis</a></li>
+      <li><a href="#pra-enlace">Practicas Enlace</a></li>
+      <li><a href="#list-des">Lista de descricion</a></li>
+      <li><a href="#citas">Citas</a></li>
+      <li><a href="#abre">Abreviaturas</a></li>
+      <li><a href="#infoCont">Marcas de información de contacto</a></li>
+      <li><a href="#indsub">Indices y subindices</a></li>
+
+      <li><a href="#codeInfo">Código informático</a></li>
+      <li><a href="#datetime">Marcas horas y fechas</a></li>
+      <li><a href="#otrosElem">Otros</a></li>
+      <li><a href="#EstrucHTML">Estructura HTML</a></li>
+      <li><a href="#Debugging_HTML">Depurar HTML</a></li>
+      <li><a href="#multiEmb">Multimedia and embedding</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#audio">Audio</a></li>
+
+      <li><a href="#iframe">Iframe</a></li>
+      <li><a href="#svg">Svg</a></li>
+      <li><a href="#ImageAdac">Imágenes Adaptables</a></li>
+      <li><a href="#tables">Tablas</a></li>
+      <li><a href="#css">CSS</a></li>
+
+
     </ul>
-  </address>
+  </div>
 
-  <address>
-    <p>Página escrita por <a href="../authors/chris-mills/">Chris Mills</a>.</p>
-  </address>
+  <div class="cuerpo">
 
-  <h2>Indices y subindices</h2>
-  <p>Nací el 25<sup>th</sup> de mayo de 2001.</p>
-  <p>
-    La fórmula química de la cafeína es
-    C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
-  </p>
-  <p>If x<sup>2</sup> es 9, x debe ser igual 3 o -3.</p>
+    <div class="bloque-contenerdo" id="Titles">
+      <h1>Mi título principal</h1>
+      <h2>Mi título de nivel superior</h2>
+      <h3>Mi subtítulo</h3>
+      <h4>Mi sub-subtítulo</h4>
+    </div>
 
-  <h2>Representación del código informático</h2>
-  <pre><code>var para = document.querySelector('p');
+    <div class="bloque-contenerdo" id="Imaenlace">
+      <h1>Imagen escalada con enlace asi misma</h1>
+      <a href="images/redhair.png">
+        <img src="images/redhair.png" width="600" height="400" alt="Mi imagen de prueba/ Imagen escalada">
+      </a>
+      <p>Quieres ver una imagen más? <a href="#ImgUwU" title="Img UwU">Aquí</a></p>
+    </div>
 
+    <div class="bloque-contenerdo" id="primerP">
+      <p>Mi gato es muy gruñon</p>
+    </div>
+
+    <div class="bloque-contenerdo" id="primerE">
+      <p>Primer Enlace a otra pagina usando target="_blank", donde pruebo una font usando la API de google</p>
+      <a href="index1.html" title="Hola pipi" target="_blank">Ir a otra página</a>
+    </div>
+
+    <div class="bloque-contenerdo" id="Enlace1">
+      <p>Enlace a una pagina y metadatos sobre esta; También JavaScript sin ningún contexto. </p>
+      <p><a href="index2.html" title="Hola papi" target="_blank">Ir a otra página mas ejemplos (metadatos)</a></p>
+    </div>
+
+    <div class="bloque-contenerdo" id="Enlace2">
+      <p>Enlace a una pagina donde se puede agregar items a una lista si haces clic y seguramente primer CSS. </p>
+      <p><a href="index3.html" title="Hola papi" target="_blank">Ir a otra página mas ejemplos (metadatos)</a></p>
+    </div>
+
+    <div class="bloque-contenerdo" id="Enlace3">
+      <p>Enlace a una pagina donde el primer navegador esta enlazado a otras paginas</p>
+      <p><a href="indexm.html" title="Menu" target="_blank">Ejemplo de menú de navegación</a></p>
+    </div>
+
+    <div class="bloque-contenerdo" id="Enlace4">
+      <p>Enlace a una Reseta y segundo enlace a una parte concreta de la misma pagina usando id</p>
+      <p><a href="reseta.html" title="receta UwU" target="_blank">Ir a receta</a></p>
+      <p>¿quieres saber que comprar para la receta?<a href="reseta.html#ingre" title="Ingredientes receta UwU"
+          target="_blank">Ingredientes
+          de receta</a></p>
+    </div>
+
+
+    <div class="bloque-contenerdo" id="listas">
+      <p>Listar ejemplos:</p>
+      <p>Desordenada</p>
+      <p>En Mozilla, somos una comunidad de</p>
+
+      <ul>
+        <li>tecnólogos</li>
+        <li>pensadores</li>
+        <li>constructores</li>
+      </ul>
+
+      <p>trabajando juntos... </p>
+
+      <p>Ordenada</p>
+      <ol>
+        <li>Huevos</li>
+        <li>Leche</li>
+        <li>Panela</li>
+      </ol>
+
+      <p>Cuantos comprar?</p>
+    </div>
+
+    <div class="bloque-contenerdo" id="Input-text">
+      <p>El uso del atributo deshabilitado evita que el usuario final introduzca texto en el cuadro de entrada.</p>
+      <input type="text" disabled />
+
+      <p>Se permite la entrada de texto, ya que no contiene el atributo deshabilitado.</p>
+      <input type="text" />
+    </div>
+
+    <div class="bloque-contenerdo" id="span">
+      <p>Ejemplo de Span y etiqueta lang para seguramente el lector de paginas</p>
+      <p>Ejemplo en japonés: <span lang="ja">ご飯が熱い。</span></p>
+
+      <p>Ejemplo agregar style al elemento span</p>
+      <span style="font-size: 32px; margin: 21px 0;">¿Es este un titular de primer rango?</span>
+    </div>
+
+    <div class="bloque-contenerdo" id="enfasis">
+      <h3>Modificadores/Énfasis</h3>
+
+      <p>Elemento &lt;em&gt;</p>
+      <p>Me <em>alegro</em> de que no llegues <em>tarde</em>.</p>
+      </br>
+      <p>Elemento &lt;strong&gt;</p>
+      <p>Este líquido es <strong>altamente tóxico</strong>.</p>
+      <p>Cuento contigo. <strong>¡No llegues tarde!</strong></p>
+      </br>
+      <p>Elemento &lt;em&gt; y &lt;strong&gt;</p>
+      <p>
+        Este líquido es <strong>altamente tóxico</strong> — si lo bebes,
+        <strong>podrías <em>morir</em></strong>.
+      </p>
+      </br>
+      <p>Nombres científicos, elemento &lt;i&gt;</p>
+      <p>
+        El colibrí garganta de rubí (<i>Archilochus colubris</i>) es el colibrí más
+        común en el este de América del Norte.
+      </p>
+      </br>
+      <p>Extranjerismos, elemento &lt;i&gt; mas lang</p>
+      <p>
+        El menú era un mar de palabras exóticas como <i lang="uk-latn">vatrushka</i>,
+        <i lang="id">nasi goreng</i> y <i lang="fr">soupe à l'oignon</i>.
+      </p>
+      </br>
+      <p>Un error ortográfico reconocido, elemento &lt;mark&gt; </p>
+      <p>Este es un ejemplo de un <mark class="error-ortografico">eror</mark> ortográfico resaltado.</p>
+      </br>
+
+      <p>Elemento &lt;code&gt; y &lt;blockquote&gt;</p>
+      <p>
+        El <strong>elemento HTML <code>&lt;blockquote&gt;</code></strong> (o
+        <em>elemento HTML de cita en bloque independiente</em>) indica que el texto al
+        que delimita es una cita ampliada.
+      </p>
+      </br>
+      <p>Palabras clave destacadas en una serie de instrucciones, elemento &lt;b&gt;</p>
+      <ol>
+        <li><b>Corta</b> dos piezas de la hogaza de pan.</li>
+        <li>
+          <b>Inserta</b> una rodaja de tomate y una hoja de lechuga entre las
+          rebanadas de pan.
+        </li>
+      </ol>
+    </div>
+
+    <div class="bloque-contenerdo" id="pra-enlace">
+      <h3>Buenas Practicas al colocar un Enlace</h3>
+      <p>Etiqueta <b>title</b> </p>
+      <p>
+        Crea un enlace a
+        <a href="https://www.mozilla.org/es-ES/" title="El mejor lugar para encontrar más información acerca de la misión de Mozilla
+          y cómo contribuir">la página de inicio de Mozilla</a>.
+      </p>
+
+      <p>
+        <a href="http://www.example.com/large-report.pdf">
+          Descarga el informe de ventas (PDF, 10MB)
+        </a>
+      </p>
+
+      <p>
+        <a href="https://youtu.be/EhGz8XLCDgg">
+          Reproduce el vídeo (el flujo de datos se abre en una pestaña independiente,
+          calidad HD)
+        </a>
+      </p>
+
+      <p>
+        <a href="https://www.minijuegos.com/juego/fl-tron-2-0">
+          Juega al juego del automóvil (requiere Flash)
+        </a>
+      </p>
+
+      <p>Etiqueta <b>download</b></p>
+      <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=es-MX"
+        download="firefox-latest-64bit-installer.exe">
+        Descarga la última versión de Firefox para Windows (64 bits) (Español, es-MX)
+      </a>
+
+      <p>Prefijo <b>mailto:</b></p>
+      <p><a href="mailto:nowhere@mozilla.org">Enviar correo electrónico a ninguna parte</a></p>
+
+    </div>
+
+    <div class="bloque-contenerdo" id="list-des">
+      <h2>Ejemplo Lista de descricion</h2>
+      <dl>
+        <dt>Soliloquio</dt>
+        <dd>
+          En las obras dramáticas, corresponde a cuando un personaje se habla a sí
+          mismo para representar sus pensamientos o sentimientos internos y, en el
+          proceso, transmitirlos a la audiencia (pero no a otros personajes).
+        </dd>
+        <dt>Monólogo</dt>
+        <dd>
+          En las obras dramáticas, corresponde a cuando un personaje habla de sus
+          pensamientos en voz alta para compartirlos con el público y cualquier otro
+          personaje presente.
+        </dd>
+        <dt>aparte</dt>
+        <dd>
+          En las obras dramáticas, corresponde a cuando un personaje comparte un
+          comentario solo con la audiencia para dar efecto cómico o dramático. Suele
+          ser un sentimiento, un pensamiento o información adicional.
+        </dd>
+        <dd>
+          Si la obra es impresa, es una sección de contenido que se relaciona con el
+          tema, pero no encaja directamente en el flujo principal de contenido, de
+          modo que se presenta por separado (a menudo en una caja de texto en el
+          margen).
+        </dd>
+      </dl>
+
+    </div>
+
+    <div class="bloque-contenerdo" id="citas">
+      <h2>Citas</h2>
+
+      <p>A continuación se muestra una cita en bloque independiente...</p>
+      <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
+        <p>
+          El <strong>elemento HTML <code>&lt;blockquote&gt;</code></strong> (o
+          <em>elemento HTML de cita en bloque independiente</em>) indica que el texto
+          al que delimita es una cita ampliada.
+        </p>
+      </blockquote>
+
+      <p>
+        El elemento de cita — <code>&lt;q&gt;</code> — se
+        <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">utiliza en para citas breves que no
+          requieren
+          saltos de párrafo.</q>
+      </p>
+      <p>
+        De acuerdo con
+        <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
+          <cite>página de citas en bloque independiente de MDN</cite></a>:
+      </p>
+
+      <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">
+        <p>
+          El <strong>elemento HTML <code>&lt;blockquote&gt;</code></strong> (o
+          <em>elemento HTML de cita en bloque independiente</em>) indica que el texto
+          al que delimita es una cita ampliada.
+        </p>
+      </blockquote>
+
+      <p>
+        El elemento de cita — <code>&lt;q&gt;</code> — se
+        <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">utiliza en citas breves que no requieren
+          saltos de párrafo.</q>
+        --
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+          <cite>página q de MDN</cite></a>.
+      </p>
+
+      <p>Hola y bienvenido a mi página de motivación. Como dice <a
+          href="http://www.brainyquote.com/quotes/authors/c/confucius.html"><cite>el sitio de citas de
+            Confucio:</cite></a>:
+      </p>
+
+      <blockquote cite="http://www.brainyquote.com/quotes/authors/c/confucius.html">
+        <p>No importa qué tan lento vayas siempre que no te detengas.</p>
+      </blockquote>
+
+      <p>También me encanta el concepto de pensamiento positivo y <q
+          cite="http://www.affirmationsforpositivethinking.com">La ne
+          cesidad de eliminar el diálogo interno negativo</q> (como se menciona en <a
+          href="http://www.affirmationsforpositivethinking.com">
+          <cite>Afirmaciones para el pensamiento positivo</cite></a>).</p>
+    </div>
+
+    <div class="bloque-contenerdo" id="abre">
+      <h2>Abreviatura</h2>
+
+      <p>
+        Usamos <abbr title="Lenguaje de marcado de hipertexto">HTML</abbr> para
+        estructurar nuestros documentos web.
+      </p>
+
+      <p>
+        Creo que el <abbr title="Reverendo">Rev.</abbr> Green lo hizo en la cocina con
+        la motosierra.
+      </p>
+    </div>
+
+    <div class="bloque-contenerdo" id="infoCont">
+      <h2>Marcar la información de contacto</h2>
+
+      <address>
+        <p>Chris Mills, Manchester, The Grim North, Reino Unido</p>
+      </address>
+
+      <address>
+        <p>
+          Chris Mills<br />
+          Manchester<br />
+          The Grim North<br />
+          Reino Unido
+        </p>
+
+        <ul>
+          <li>Tel: 01234 567 890</li>
+          <li>Email: me@grim-north.co.uk</li>
+        </ul>
+      </address>
+
+      <address>
+        <p>Página escrita por <a href="../authors/chris-mills/">Chris Mills</a>.</p>
+      </address>
+    </div>
+
+    <div class="bloque-contenerdo" id="indsub">
+      <h2>Indices y subindices</h2>
+      <p>Nací el 25<sup>th</sup> de mayo de 2001.</p>
+      <p>
+        La fórmula química de la cafeína es
+        C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
+      </p>
+      <p>If x<sup>2</sup> es 9, x debe ser igual 3 o -3.</p>
+    </div>
+
+    <div class="bloque-contenerdo" id="codeInfo">
+      <h2>Representación del código informático</h2>
+
+      <pre><code>var para = document.querySelector('p');
   para.onclick = function() {
     alert('¡Guau!, ¡deja de apretar!');
   }</code></pre>
 
-  <p>
-    No debes utilizar elementos de presentación como <code>&lt;font&gt;</code> y
-    <code>&lt;center&gt;</code>.
-  </p>
+      <p>
+        No debes utilizar elementos de presentación como <code>&lt;font&gt;</code> y
+        <code>&lt;center&gt;</code>.
+      </p>
 
-  <p>
-    En el ejemplo de JavaScript anterior, <var>para</var> representa un elemento
-    de párrafo.
-  </p>
+      <p>
+        En el ejemplo de JavaScript anterior, <var>para</var> representa un elemento
+        de párrafo.
+      </p>
 
-  <p>
-    Selecciona todo el texto con <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.
-  </p>
+      <p>
+        Selecciona todo el texto con <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.
+      </p>
 
-  <pre>$ <kbd>ping mozilla.org</kbd>
+      <pre>$ <kbd>ping mozilla.org</kbd>
   <samp>PING mozilla.org (63.245.215.20): 56 bytes de datos
   64 bytes de 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
 
-  <h2>Marcar horas y fechas</h2>
+    </div>
 
-  <!-- Fecha simple estándar -->
-  <time datetime="2016-01-20">20 Enero 2016</time><br />
-  <!-- Solo año y mes -->
-  <time datetime="2016-01">Enero 2016</time><br />
-  <!-- Solo mes y día -->
-  <time datetime="01-20">20 Enero 2016</time><br />
-  <!-- Solo tiempo, horas y minutos -->
-  <time datetime="19:30">19:30</time><br />
-  <!-- ¡También puedes hacer segundos y milisegundos! -->
-  <time datetime="19:30:01.856">19:30:01.856</time><br />
-  <!-- Fecha y hora -->
-  <time datetime="2016-01-20T19:30">7.30pm, 20 Enero 2016</time><br />
-  <!-- Fecha y hora con desplazamiento de zona horaria -->
-  <time datetime="2016-01-20T19:30+01:00">7.30pm, 20 Enero 2016 es 8.30pm en Francia</time><br />
-  <!-- Llamar a un número de semana específico -->
-  <time datetime="2016-W04">La cuarta semana de 2016</time><br />
+    <div class="bloque-contenerdo" id="datetime">
+      <h2>Marcar horas y fechas</h2>
 
-  <h2>Para conocer y recordar otros elemente de HTML <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element"
-      title="Elementos HTML"><cite><b> Ver Referencia de Elementos HTML</b> </cite> </a></h2>
+      <!-- Fecha simple estándar -->
+      <time datetime="2016-01-20">20 Enero 2016</time><br />
+      <!-- Solo año y mes -->
+      <time datetime="2016-01">Enero 2016</time><br />
+      <!-- Solo mes y día -->
+      <time datetime="01-20">20 Enero 2016</time><br />
+      <!-- Solo tiempo, horas y minutos -->
+      <time datetime="19:30">19:30</time><br />
+      <!-- ¡También puedes hacer segundos y milisegundos! -->
+      <time datetime="19:30:01.856">19:30:01.856</time><br />
+      <!-- Fecha y hora -->
+      <time datetime="2016-01-20T19:30">7.30pm, 20 Enero 2016</time><br />
+      <!-- Fecha y hora con desplazamiento de zona horaria -->
+      <time datetime="2016-01-20T19:30+01:00">7.30pm, 20 Enero 2016 es 8.30pm en Francia</time><br />
+      <!-- Llamar a un número de semana específico -->
+      <time datetime="2016-W04">La cuarta semana de 2016</time><br />
 
-  <h2>HTML para dar estructura al contenido <a href="estructura.html" title="Partes básicas de un documento"><b> Ejemplo
-        Partes básicas de un documento</b> </a></h2>
+    </div>
 
-  <h2>Depurar el HTML <a href="depuracion.html" title="HTML y depuración"><b> Ejemplo HTML y depuración</b> </a></h2>
+    <div class="bloque-contenerdo" id="otrosElem">
+      <h3>Para conocer y recordar otros elemente de HTML <a
+          href="https://developer.mozilla.org/es/docs/Web/HTML/Element" title="Elementos HTML" target="_blank" <cite><b>
+            Ver Referencia
+            de Elementos HTML</b> </cite> </a></h2>
+    </div>
 
-  <h2>Ejercicio Carta estructurada<a href="carta.html" title="Carta de trabajo"><b> Resultado Carta</b> </a></h2>
+    <div class="bloque-contenerdo" id="EstrucHTML">
+      <h3>HTML para dar estructura al contenido <a href="estructura.html" title="Partes básicas de un documento"
+          target="_blank"><b>Ejemplo Partes básicas de un documento</b> </a></h3>
+      <h3>Estructuración de una Página de contenido<a href="/assets/index.html" title="Página Ejemplo"
+          target="_blank"><b>Ejemplo</b>
+        </a>
+      </h3>
+      <h4>Ejercicio Carta estructurada <a href="carta.html" title="Carta de trabajo" target="_blank">Resultado Carta</a>
+      </h4>
 
-  <h2>Estructuración de una Página de contenido<a href="../assets/index.html" title="Página Ejemplo"><b>Ejemplo</b> </a>
-  </h2>
+    </div>
 
-  <h2>Multimedia and embedding<a href="../assets/index.html" title="Página Ejemplo"><b>Ejemplo</b> </a></h2>
+    <div class="bloque-contenerdo" id="Debugging_HTML">
+      <h3>Depurar el HTML <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"
+          title="HTML y depuración" target="_blank"><b> MDN Web Docs </b> </a></h3>
+    </div>
 
-  <p>Multimedia y la incrustación de contenido son elementos clave en el desarrollo de páginas web, ya que permiten
-    enriquecer la experiencia del usuario al incluir diferentes tipos de contenido, como imágenes, videos, audio y otros
-    medios interactivos.</p>
 
-  <p>En HTML, existen diferentes elementos y atributos para trabajar con multimedia y la incrustación de contenido.
-    Algunos de los elementos más comunes son:</p>
 
-  <ol>
-    <dl>
-      <li>
-        <dt><code>&lt;img&gt;</code>:</dt>
-        <dd>
-          Este elemento se utiliza para insertar imágenes en una página web. Permite especificar la ruta de la imagen y
-          proporcionar atributos como el tamaño, el texto alternativo y el estilo.
-        </dd>
-      </li>
 
-      <figure>
-        <img
-          src="https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"
-          width="400" height="341" alt="No se que es">
 
-        <figcaption>Exposición de un T-Rex en el museo de la Universidad de Manchester.</figcaption>
-      </figure>
+    <div class="bloque-contenerdo" id="multiEmb">
+      <h2>Multimedia and embedding</h2>
 
-      <li>
-        <dt><code>&lt;video&gt;</code>:</dt>
-        <dd>
-          Con este elemento se puede insertar y reproducir videos en la página web. Se pueden especificar diferentes
-          formatos de video compatibles y controlar la reproducción con controles como reproducción, pausa, avance y
-          retroceso.
-        </dd>
-      </li>
-      <li>
-        <dt><code>&lt;audio&gt;</code>:</dt>
-        <dd>
-          Similar al elemento de video, &lt;audio&gt permite incrustar y reproducir archivos de audio en la página web.
-          También se pueden proporcionar controles para controlar la reproducción del audio.
-        </dd>
-      </li>
-      <li>
-        <dt><code>&lt;iframe&gt;</code>:</dt>
-        <dd>
-          Este elemento se utiliza para incrustar contenido de otras fuentes, como videos de YouTube, mapas de Google o
-          contenido de redes sociales. Permite insertar una ventana en la página web que muestra contenido externo.
-        </dd>
-      </li>
-    </dl>
-  </ol>
 
-  <p>Además de estos elementos, HTML también ofrece atributos y propiedades adicionales para personalizar y controlar el
-    comportamiento de los elementos multimedia, como el tamaño, la reproducción automática, la repetición y la
-    personalización de los controles.</p>
-  <p>La capacidad de integrar y mostrar multimedia en una página web es esencial para crear experiencias interactivas y
-    atractivas para los usuarios. Con el uso adecuado de estos elementos y atributos, se puede lograr una presentación
-    visualmente atractiva y una experiencia multimedia enriquecedora para los visitantes de la página web.</p>
+      <p>Multimedia y la incrustación de contenido son elementos clave en el desarrollo de páginas web, ya que permiten
+        enriquecer la experiencia del usuario al incluir diferentes tipos de contenido, como imágenes, videos, audio y
+        otros
+        medios interactivos.</p>
 
-  <h3>Video</h3>
+      <p>En HTML, existen diferentes elementos y atributos para trabajar con multimedia y la incrustación de contenido.
+        Algunos de los elementos más comunes son:</p>
 
-  <video src="images/rabbit320.webm" controls>
-    <p>Tu navegador no soporta HTML5 video. Aquí está el <a href="rabbit320.webm">enlace del video</a>.</p>
-  </video>
+      <ol>
+        <dl>
+          <li>
+            <dt><code>&lt;img&gt;</code>:</dt>
+            <dd>
+              Este elemento se utiliza para insertar imágenes en una página web. Permite especificar la ruta de la
+              imagen
+              y
+              proporcionar atributos como el tamaño, el texto alternativo y el estilo.
+            </dd>
+          </li>
 
-  <h3>Video con diferentes formatos</h3>
+          <figure>
+            <img
+              src="https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"
+              width="400" height="341" alt="No se que es">
 
-  <video controls>
-    <source src="images/rabbit320.mp4" type="video/mp4">
-    <source src="images/rabbit320.webm" type="video/webm">
-    <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
-  </video>
+            <figcaption>Exposición de un T-Rex en el museo de la Universidad de Manchester.</figcaption>
+          </figure>
 
-  <h3>Otras características de la etiqueta <code>&lt;video&gt;</code></h3>
+          <li>
+            <dt><code>&lt;video&gt;</code>:</dt>
+            <dd>
+              Con este elemento se puede insertar y reproducir videos en la página web. Se pueden especificar diferentes
+              formatos de video compatibles y controlar la reproducción con controles como reproducción, pausa, avance y
+              retroceso.
+            </dd>
+          </li>
+          <li>
+            <dt><code>&lt;audio&gt;</code>:</dt>
+            <dd>
+              Similar al elemento de video, &lt;audio&gt permite incrustar y reproducir archivos de audio en la página
+              web.
+              También se pueden proporcionar controles para controlar la reproducción del audio.
+            </dd>
+          </li>
+          <li>
+            <dt><code>&lt;iframe&gt;</code>:</dt>
+            <dd>
+              Este elemento se utiliza para incrustar contenido de otras fuentes, como videos de YouTube, mapas de
+              Google
+              o
+              contenido de redes sociales. Permite insertar una ventana en la página web que muestra contenido externo.
+            </dd>
+          </li>
+        </dl>
+      </ol>
 
-  <video controls width="400" height="400" loop muted poster="images/wallhaven-qzg5vq.jpg">
-    <source src="images/rabbit320.mp4" type="video/mp4">
-    <source src="images/rabbit320.webm" type="video/webm">
-    <p>Su navegador no soporta vídeo HTML5. Este es un <a href="rabbit320.mp4">enlace al vídeo</a> alternativo.</p>
-  </video>
+      <p>Además de estos elementos, HTML también ofrece atributos y propiedades adicionales para personalizar y
+        controlar
+        el
+        comportamiento de los elementos multimedia, como el tamaño, la reproducción automática, la repetición y la
+        personalización de los controles.</p>
+      <p>La capacidad de integrar y mostrar multimedia en una página web es esencial para crear experiencias
+        interactivas
+        y atractivas para los usuarios. Con el uso adecuado de estos elementos y atributos, se puede lograr una
+        presentación
+        visualmente atractiva y una experiencia multimedia enriquecedora para los visitantes de la página web.</p>
 
-  <h3>El elemento &lt;audio&gt;</h3>
+    </div>
 
-  <audio controls>
-    <source src="images/viper.mp3" type="audio/mp3">
-    <source src="images/viper.ogg" type="audio/ogg">
-    <p>Su navegador no es compatible con audio HTML5. Aquí hay un <a href="viper.mp3">enlace al audio</a> en su lugar.
-    </p>
-  </audio>
+    <div class="bloque-contenerdo" id="video">
+      <h3>Video</h3>
 
-  <h3>Visualización de pistas de texto en vídeo</h3>
+      <video src="images/rabbit320.webm" controls>
+        <p>Tu navegador no soporta HTML5 video. Aquí está el <a href="rabbit320.webm">enlace del video</a>.</p>
+      </video>
 
-  <video controls>
-    <source src="example.mp4" type="video/mp4">
-    <source src="example.webm" type="video/webm">
-    <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
-  </video>
+      <h3>Video con diferentes formatos</h3>
+      <p>Dependiendo del lo que soporte el navegador puede ser .webm ó .mp4</p>
+      <video controls>
+        <p>.mp4</p>
+        <source src="images/rabbit320.mp4" type="video/mp4">
+        <p>.webm</p>
+        <source src="images/rabbit320.webm" type="video/webm">
+        <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.
+        </p>
+      </video>
 
-  <h3>Iframes</h3>
+      <h3>Otras características de la etiqueta <code>&lt;video&gt;</code> (poster)</h3>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/g31NTpq9p-o" title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
-  </br>
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d490461.9617639412!2d-4.416641868496825!3d36.70068978369349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1687555238818!5m2!1ses!2sco"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </br>
-  <iframe src="https://developer.mozilla.org/en-US/docs/Glossary" width="100%" height="500" frameborder="0"
-    allowfullscreen sandbox>
-    <p> <a href="https://developer.mozilla.org/en-US/docs/Glossary">
-        Fallback link for browsers that don't support iframes
-      </a> </p>
-  </iframe>
+      <video controls width="400" height="400" loop muted poster="images/wallhaven-qzg5vq.jpg">
+        <source src="images/rabbit320.mp4" type="video/mp4">
+        <source src="images/rabbit320.webm" type="video/webm">
+        <p>Su navegador no soporta vídeo HTML5. Este es un <a href="rabbit320.mp4">enlace al vídeo</a> alternativo.</p>
+      </video>
+      <h3>Visualización de pistas de texto en vídeo</h3>
 
-  <h3>Iframe de carta</h3>
-  <iframe width="100%" height="500" src="carta.html" title="Carta" frameborder="0" sandbox
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
+      <video controls>
+        <source src="example.mp4" type="video/mp4">
+        <source src="example.webm" type="video/webm">
+        <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
+      </video>
+    </div>
 
-  <p>Nota: Para mejorar la velocidad, es una buena idea establecer el atributo src de iframes con JavaScript después de
-    que se cargue el contenido principal. Esto hace que tu página pueda utilizarse antes y disminuye el tiempo de carga
-    de tu página principal (an important SEO.)</p>
+    <div class="bloque-contenerdo" id="audio">
+      <h3>El elemento &lt;audio&gt;</h3>
 
-  <object data="images/Proyección de Créditos Cumplimiento RequisitoInglesB2_Sistemas_ 2015.pdf"
-    type="application/pdf" width="800" height="1200">
-    <p>
-      You don't have a PDF plugin, but you can
-      <a href="mypdf.pdf">download the PDF file. </a>
-    </p>
-  </object>
+      <audio controls>
+        <source src="images/viper.mp3" type="audio/mp3">
+        <source src="images/viper.ogg" type="audio/ogg">
+        <p>Su navegador no es compatible con audio HTML5. Aquí hay un <a href="viper.mp3">enlace al audio</a> en su
+          lugar.
+        </p>
+      </audio>
+    </div>
 
-  <h3>SVG</h3>
+    <div class="bloque-contenerdo" id="iframe">
+      <h3>Iframes</h3>
 
-  <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    <rect width="100%" height="100%" fill="black" />
-    <circle cx="150" cy="100" r="90" fill="blue" />
-  </svg>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/g31NTpq9p-o" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      </br>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d490461.9617639412!2d-4.416641868496825!3d36.70068978369349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1687555238818!5m2!1ses!2sco"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </br>
+      <iframe src="https://developer.mozilla.org/en-US/docs/Glossary" width="100%" height="500" frameborder="0"
+        allowfullscreen sandbox>
+        <p> <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+            Fallback link for browsers that don't support iframes
+          </a> </p>
+      </iframe>
 
-  <img src="images/demosvg.svg" alt="triangle with all three sides equal" height="87" width="100" />
+      <h3>Iframe de carta</h3>
+      <iframe width="100%" height="500" src="carta.html" title="Carta" frameborder="0" sandbox
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
-  <img src="equilateral.png" alt="triangle with equal sides" srcset="equilateral.svg">
+      <p>Nota: Para mejorar la velocidad, es una buena idea establecer el atributo src de iframes con JavaScript después
+        de
+        que se cargue el contenido principal. Esto hace que tu página pueda utilizarse antes y disminuye el tiempo de
+        carga
+        de tu página principal (an important SEO.)</p>
 
-  <h3>SVG con css</h3>
+      <object data="images/Proyección de Créditos Cumplimiento RequisitoInglesB2_Sistemas_ 2015.pdf"
+        type="application/pdf" width="800" height="1200">
+        <p>
+          You don't have a PDF plugin, but you can
+          <a href="mypdf.pdf">download the PDF file.</a>
+        </p>
+      </object>
+    </div>
 
-  <div class="triangle-container">
-    <svg height="500" width="500">
-      <polygon points="250,60 100,400 400,400" class="triangle" />
-      Sorry, your browser does not support inline SVG.
-    </svg>
-  </div>
+    <div class="bloque-contenerdo" id="svg">
 
-  <h3>SVG como iframe</h3>
+      <h3>SVG</h3>
 
-  <iframe src="ejemplosvg.html" width="500" height="500" sandbox>
-    <img src="triangle.png" alt="Triangle with three unequal sides" />
-  </iframe>
+      <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="black" />
+        <circle cx="150" cy="100" r="90" fill="blue" />
+      </svg>
 
-  <p><a href="ejemplosvg.html" title="Hola papi">ejemplo svg</a></p>
+      <img src="images/demosvg.svg" alt="triangle with all three sides equal" height="87" width="100" />
 
-  <svg height="210" width="500">
-    <polygon points="200,10 250,190 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
-    Sorry, your browser does not support inline SVG.
-  </svg>
+      <img src="equilateral.png" alt="triangle with equal sides" srcset="equilateral.svg">
 
-  <h3>Imágenes adaptables (Cambio de resolución: Diferentes tamaños)</h3>
+      <h3>SVG con css</h3>
 
-  <img srcset="elva-fairy-320w.jpg 320w,
+      <div class="triangle-container">
+        <svg height="500" width="500">
+          <polygon points="250,60 100,400 400,400" class="triangle" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </div>
+
+      <h3>SVG como iframe</h3>
+
+      <iframe src="ejemplosvg.html" width="500" height="500" sandbox>
+        <img src="triangle.png" alt="Triangle with three unequal sides" />
+      </iframe>
+
+      <p><a href="ejemplosvg.html" title="Hola papi">ejemplo svg</a></p>
+
+      <svg height="210" width="500">
+        <polygon points="200,10 250,190 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
+        Sorry, your browser does not support inline SVG.
+      </svg>
+    </div>
+
+    <div class="bloque-contenerdo" id="ImageAdac">
+
+      <h3>Imágenes adaptables (Cambio de resolución: Diferentes tamaños)</h3>
+
+      <img srcset="elva-fairy-320w.jpg 320w,
              elva-fairy-480w.jpg 480w,
              elva-fairy-800w.jpg 800w" sizes="(max-width: 320px) 280px,
             (max-width: 480px) 440px,
             800px" src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
 
-  <h3>Cambio de resolución: mismo tamaño, distintas resoluciones</h3>
+      <h3>Cambio de resolución: mismo tamaño, distintas resoluciones</h3>
 
 
-  <img srcset="elva-fairy-320w.jpg,
+      <img srcset="elva-fairy-320w.jpg,
              elva-fairy-480w.jpg 1.5x,
              elva-fairy-640w.jpg 2x" src="elva-fairy-640w.jpg" alt="Elva dressed as a fairy">
 
-  <h3>Dirección artística</h3>
+      <h3>Dirección artística</h3>
 
-  <picture>
-    <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
-    <source media="(min-width: 800px)" srcset="elva-800w.jpg">
-    <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
-  </picture>
+      <picture>
+        <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
+        <source media="(min-width: 800px)" srcset="elva-800w.jpg">
+        <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+      </picture>
 
-  <picture>
-    <source type="image/svg+xml" srcset="pyramid.svg">
-    <source type="image/webp" srcset="pyramid.webp">
-    <img src="pyramid.png" alt="regular pyramid built from four equilateral triangles">
-  </picture>
+      <picture>
+        <source type="image/svg+xml" srcset="pyramid.svg">
+        <source type="image/webp" srcset="pyramid.webp">
+        <img src="pyramid.png" alt="regular pyramid built from four equilateral triangles">
+      </picture>
 
-  <p><a href="ejercicio2.html" title="Hola papi">Ejercicio Multimedia and embedding</a></p>
+      <p><a href="ejercicio2.html" title="Hola papi">Ejercicio Multimedia and embedding</a></p>
 
+    </div>
 
-  <h2>Tablas en HTML<a href="tablas.html" title="tablas">Ejemplos de tablas</a></h2>
+    <div class="bloque-contenerdo" id="tables">
+      <h2>Tabla HTML</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Especie</th>
+            <th>Color</th>
+            <th>Edad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Piolín</td>
+            <td Canario</td>
+            <td>Amarillo</td>
+            <td>2 años</td>
+          </tr>
+          <tr>
+            <td>Blue</td>
+            <td>Loro</td>
+            <td>Verde y Azul</td>
+            <td>5 años</td>
+          </tr>
+          <tr>
+            <td>Robin</td>
+            <td>Colibrí</td>
+            <td>Rojo y Verde</td>
+            <td>1 año</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Tablas en HTML <a href="tablas.html" title="tablas" target="_blank">Ejemplos de tablas</a></h3>
+    </div>
 
-  <h1>CSS</h1>
+    <div class="bloque-contenerdo" id="css">
+      <h2>CSS</h2>
 
-  <h2><a href="cssbasico.html" title="Hola papi">CSS básico</a></h2>
-  <h2><a href="diseñocss.html" title="Introducción al diseño en CSS">Introducción al diseño en CSS</a></h2>
-  <h2><a href="Responsive_design.html">Responsive design</a></h2>
-  <h2><a href="media_queries.html">Beginner's guide to media queries</a></h2>
-  <h2><a href="ejerciciocssfinal.html">Ejercicio CSS Final</a></h2>
+      <h4><a href="cssbasico.html" title="Hola papi" target="_blank">CSS básico</a></h4>
+      <h4><a href="diseñocss.html" title="Introducción al diseño en CSS" target="_blank">Introducción al diseño en
+          CSS</a></h4>
+      <h4><a href="Responsive_design.html" target="_blank">Responsive design</a></h4>
+      <h4><a href="media_queries.html" target="_blank">Beginner's guide to media queries</a></h4>
+      <h4><a href="ejerciciocssfinal.html" target="_blank">Ejercicio CSS Final</a></h4>
 
-  <h2><a href="JavaScriptPrimerosPasos.html">Primeros pasos con JavaScript</a></h2>
+    </div>
 
-  <img id="ImgUwU" src="images/cielo.png" width="1500" height="800" alt="Mi imagen de prueba vinculada">
+    <h2><a href="JavaScriptPrimerosPasos.html">Primeros pasos con JavaScript</a></h2>
+
 
 </body>
+</div>
+
+<footer>
+  <img class="ImgUwU" id="ImgUwU" src="images/cielo.png" alt="Mi imagen de prueba vinculada">
+</footer>
+
+<button id="btnIrInicio" onclick="irAlInicio()"><img src="/images/6flechaArriba.svg" alt=">"></button>
+
+<script>
+  function irAlInicio() {
+    // Scroll suave hacia arriba
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 
 </html>

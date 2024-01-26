@@ -1,43 +1,70 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sender-column {
+  text-align: right;
+}
+
+.letrabonita {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+}
+
+ul.sin-puntos {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+  font-size: 1.1em;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+  line-height: 1.5;
+}
+
+body {
+  /* background-image: url("../images/wallhaven-welkdr.jpg"); */
+  
+  background-color: #111;
+  /* Fondo oscuro para resaltar el efecto neón */
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  text-shadow: 0 0 4px rgba(240, 77, 243, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 144, 253, 0.8);
+  font-weight: bold;
+  position: relative;
+  padding-block: 40px;
+}
+
+.caja-fija {
+  position: absolute;
+  /* Posición fija en la ventana del navegador */
+  top: 50px;
+  /* Distancia desde la parte superior */
 
 
-  body {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .sender-column {
-    text-align: right;
-  }
-  .letrabonita {
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
-  }
-  
-  ul.sin-puntos {
-    list-style-type: none;
-  }
-  
-  h1 {
-    font-size: 1.5em;
-  }
-  
-  h2 {
-    font-size: 1.3em;
-  }
-  
-  p,ul,ol,dl,address {
-    font-size: 1.1em;
-  }
-  
-  p, li, dd, dt, address {
-    line-height: 1.5;
-  }
+}
 
-  body {
-    background-image: url("../images/wallhaven-welkdr.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  
+img {
+  width: 180px;
+}

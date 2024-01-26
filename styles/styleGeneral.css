@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 250px 77vw;
+    grid-gap: 0px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+}
+
+.barraIndece {
+    background-color: rgb(229, 245, 220);
+    padding-left: 15px;
+}
+
+.cuerpo {
+    padding-inline: 30px;
+}
+
+.bloque-contenerdo {
+    border: 3px solid rgb(81, 62, 226);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+
+    /* overflow: auto; */
+    /* width: fit-content; */
+}
+
+.ImgUwU {
+    width: 100vw;
+
+}
+
+.barraIndece h1 {
+    color: blueviolet;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(81, 62, 226);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#btnIrInicio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
