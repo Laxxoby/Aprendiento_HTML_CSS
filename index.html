@@ -28,6 +28,7 @@
 </head>
 
 <body>
+
   <div class="barraIndece">
     <h1>Índice</h1>
 
@@ -70,21 +71,42 @@
     </ul>
 
     <div class="line"></div>
-    
-    <span class="contan"><a href="https://www.linkedin.com/in/johanlassof/" target="_blank" rel="noopener noreferrer">Johan C. Lasso</a></span>
-    <span class="contan"><a href="mailto:johan_lasso@javeriana.edu.co" target="_blank" rel="noopener noreferrer">johan_lasso@javeriana.edu.co</a></span>
+
+    <span class="contan"><a href="https://www.linkedin.com/in/johanlassof/" target="_blank"
+        rel="noopener noreferrer">Johan C. Lasso</a></span>
+    <span class="contan"><a href="mailto:johan_lasso@javeriana.edu.co" target="_blank"
+        rel="noopener noreferrer">johan_lasso@javeriana.edu.co</a></span>
   </div>
+
 
   <div class="cuerpo">
 
     <div class="bloque-contenerdo" id="Titles">
+      <div class="boton" onclick="toggleDesplegable(1)"><code>code</code></div>
       <h1>Mi título principal</h1>
       <h2>Mi título de nivel superior</h2>
       <h3>Mi subtítulo</h3>
       <h4>Mi sub-subtítulo</h4>
     </div>
+    <div class="contenido-desplegable" id="desplegable1">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Mi título principal&lt;/h1&gt;
+  &lt;h2&gt;Mi título de nivel superior&lt;/h2&gt;
+  &lt;h3&gt;Mi subtítulo&lt;/h3&gt;
+  &lt;h4&gt;Mi sub-subtítulo&lt;/h4&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </div>
 
     <div class="bloque-contenerdo" id="Imaenlace">
+      <div class="boton" onclick="toggleDesplegable(2)"><code>code</code></div>
       <h1>Imagen escalada con enlace asi misma</h1>
       <a href="images/redhair.png">
         <img src="images/redhair.png" width="600" height="400" alt="Mi imagen de prueba/ Imagen escalada"
@@ -92,41 +114,150 @@
       </a>
       <p>Quieres ver una imagen más? <a href="#ImgUwU" title="Img UwU">Aquí</a></p>
     </div>
+    <div class="contenido-desplegable" id="desplegable2">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Imagen escalada con enlace a sí misma&lt;/h1&gt;
+  &lt;a href="images/redhair.png"&gt;
+    &lt;img src="images/redhair.png" width="600" height="400" alt="Mi imagen de prueba/ Imagen escalada" loading="lazy"&gt;
+  &lt;/a&gt;
+  &lt;p&gt;¿Quieres ver otra imagen? &lt;a href="#ImgUwU" title="Img UwU"&gt;Aquí&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </div>
 
     <div class="bloque-contenerdo" id="primerP">
+      <div class="boton" onclick="toggleDesplegable(3)"><code>code</code></div>
       <p>Mi gato es muy gruñon</p>
+    </div>
+    <div class="contenido-desplegable" id="desplegable3">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Mi gato es muy gruñon&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
     </div>
 
     <div class="bloque-contenerdo" id="primerE">
+      <div class="boton" onclick="toggleDesplegable(4)"><code>code</code></div>
       <p>Primer Enlace a otra pagina usando target="_blank", donde pruebo una font usando la API de google</p>
       <a href="index1.html" title="Hola pipi" target="_blank">Ir a otra página</a>
     </div>
+    <div class="contenido-desplegable" id="desplegable4">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Primer Enlace a otra pagina usando target="_blank", donde pruebo una font usando la API de google&lt;/p&gt;
+  &lt;a href="index1.html" title="Hola pipi" target="_blank"&gt;Ir a otra página&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </div>
 
     <div class="bloque-contenerdo" id="Enlace1">
+      <div class="boton" onclick="toggleDesplegable(5)"><code>code</code></div>
       <p>Enlace a una pagina y metadatos sobre esta; También JavaScript sin ningún contexto. </p>
       <p><a href="index2.html" title="Hola papi" target="_blank">Ir a otra página mas ejemplos (metadatos)</a></p>
     </div>
+    <div class="contenido-desplegable" id="desplegable5">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Enlace a una pagina y metadatos sobre esta; También JavaScript sin ningún contexto.&lt;/p&gt;
+  &lt;p&gt;&lt;a href="index2.html" title="Hola papi" target="_blank"&gt;Ir a otra página mas ejemplos (metadatos)&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </div>
 
     <div class="bloque-contenerdo" id="Enlace2">
+      <div class="boton" onclick="toggleDesplegable(6)"><code>code</code></div>
       <p>Enlace a una pagina donde se puede agregar items a una lista si haces clic y seguramente primer CSS. </p>
       <p><a href="index3.html" title="Hola papi" target="_blank">Ir a otra página mas ejemplos (metadatos)</a></p>
     </div>
+    <div class="contenido-desplegable" id="desplegable6">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Enlace a una pagina donde se puede agregar items a una lista si haces clic y seguramente primer CSS. &lt;/p&gt;
+  &lt;p&gt;&lt;a href="index3.html" title="Hola papi" target="_blank"&gt;Ir a otra página mas ejemplos (metadatos)&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </div>
 
     <div class="bloque-contenerdo" id="Enlace3">
-      <p>Enlace a una pagina donde el primer navegador esta enlazado a otras paginas</p>
+      <div class="boton" onclick="toggleDesplegable(7)"><code>code</code></div>
+      <p>Enlace a una pagina donde el primer navegador esta enlazado a otras paginas.</p>
       <p><a href="indexm.html" title="Menu" target="_blank">Ejemplo de menú de navegación</a></p>
+    </div>
+    <div class="contenido-desplegable" id="desplegable7">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Enlace a una pagina donde el primer navegador esta enlazado a otras paginas.&lt;/p&gt;
+  &lt;p&gt;&lt;a href="indexm.html" title="Menu" target="_blank"&gt;Ejemplo de menú de navegación&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
     </div>
 
     <div class="bloque-contenerdo" id="Enlace4">
+      <div class="boton" onclick="toggleDesplegable(8)"><code>code</code></div>
       <p>Enlace a una Reseta y segundo enlace a una parte concreta de la misma pagina usando id</p>
       <p><a href="reseta.html" title="receta UwU" target="_blank">Ir a receta</a></p>
       <p>¿quieres saber que comprar para la receta?<a href="reseta.html#ingre" title="Ingredientes receta UwU"
           target="_blank">Ingredientes
           de receta</a></p>
     </div>
+    <div class="contenido-desplegable" id="desplegable8">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Enlace a una Reseta y segundo enlace a una parte concreta de la misma pagina usando id&lt;/p&gt;
+  &lt;p&gt;&lt;a href="reseta.html" title="receta UwU" target="_blank"&gt;Ir a receta&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;¿Quieres saber qué comprar para la receta? &lt;a href="reseta.html#ingre" 
+    title="Ingredientes receta UwU" target="_blank"&gt;Ingredientes de receta&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </div>
 
 
     <div class="bloque-contenerdo" id="listas">
+      <div class="boton" onclick="toggleDesplegable(9)"><code>code</code></div>
       <p>Listar ejemplos:</p>
       <p>Desordenada</p>
       <p>En Mozilla, somos una comunidad de</p>
@@ -147,6 +278,38 @@
       </ol>
 
       <p>Cuantos comprar?</p>
+    </div>
+    <div class="contenido-desplegable" id="desplegable9">
+      <pre class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Titles&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Listar ejemplos:&lt;/p&gt;
+  &lt;p&gt;Desordenada&lt;/p&gt;
+  &lt;p&gt;En Mozilla, somos una comunidad de&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;tecnólogos&lt;/li&gt;
+    &lt;li&gt;pensadores&lt;/li&gt;
+    &lt;li&gt;constructores&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;trabajando juntos...&lt;/p&gt;
+
+  &lt;p&gt;Ordenada&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Huevos&lt;/li&gt;
+    &lt;li&gt;Leche&lt;/li&gt;
+    &lt;li&gt;Panela&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;p&gt;¿Cuántos comprar?&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
     </div>
 
     <div class="bloque-contenerdo" id="Input-text">
@@ -753,14 +916,15 @@
     </div>
 
     <h2><a href="JavaScriptPrimerosPasos.html">Primeros pasos con JavaScript</a></h2>
-
+    <footer>
+      <img class="ImgUwU" id="ImgUwU" src="images/cielo.png" alt="Mi imagen de prueba vinculada" loading="lazy">
+    </footer>
+  </div>
 
 </body>
-</div>
 
-<footer>
-  <img class="ImgUwU" id="ImgUwU" src="images/cielo.png" alt="Mi imagen de prueba vinculada" loading="lazy">
-</footer>
+
+
 
 <button id="btnIrInicio" onclick="irAlInicio()"><img src="images/6flechaArriba.svg" alt=">" loading="lazy"></button>
 
@@ -768,6 +932,11 @@
   function irAlInicio() {
     // Scroll suave hacia arriba
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function toggleDesplegable(numero) {
+    var contenidoDesplegable = document.getElementById('desplegable' + numero);
+    contenidoDesplegable.style.maxHeight = contenidoDesplegable.style.maxHeight === '0px' ? contenidoDesplegable.scrollHeight + 'px' : '0';
   }
 </script>
 
