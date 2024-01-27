@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Johan Camilo" />
   <meta name="description" content="Estoy aprendiendo jiji" />
 
@@ -82,7 +83,8 @@
     <div class="bloque-contenerdo" id="Imaenlace">
       <h1>Imagen escalada con enlace asi misma</h1>
       <a href="images/redhair.png">
-        <img src="images/redhair.png" width="600" height="400" alt="Mi imagen de prueba/ Imagen escalada">
+        <img src="images/redhair.png" width="600" height="400" alt="Mi imagen de prueba/ Imagen escalada"
+          loading="lazy">
       </a>
       <p>Quieres ver una imagen más? <a href="#ImgUwU" title="Img UwU">Aquí</a></p>
     </div>
@@ -488,7 +490,7 @@
           <figure>
             <img
               src="https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"
-              width="400" height="341" alt="No se que es">
+              width="400" height="341" alt="No se que es" loading="lazy">
 
             <figcaption>Exposición de un T-Rex en el museo de la Universidad de Manchester.</figcaption>
           </figure>
@@ -637,9 +639,9 @@
         <circle cx="150" cy="100" r="90" fill="blue" />
       </svg>
 
-      <img src="images/demosvg.svg" alt="triangle with all three sides equal" height="87" width="100" />
+      <img src="images/demosvg.svg" alt="triangle with all three sides equal" height="87" width="100" loading="lazy" />
 
-      <img src="equilateral.png" alt="triangle with equal sides" srcset="equilateral.svg">
+      <img src="equilateral.png" alt="triangle with equal sides" srcset="equilateral.svg" loading="lazy">
 
       <h3>SVG con css</h3>
 
@@ -653,7 +655,7 @@
       <h3>SVG como iframe</h3>
 
       <iframe src="ejemplosvg.html" width="500" height="500" sandbox>
-        <img src="triangle.png" alt="Triangle with three unequal sides" />
+        <img src="triangle.png" alt="Triangle with three unequal sides" loading="lazy" />
       </iframe>
 
       <p><a href="ejemplosvg.html" title="Hola papi">ejemplo svg</a></p>
@@ -672,27 +674,27 @@
              elva-fairy-480w.jpg 480w,
              elva-fairy-800w.jpg 800w" sizes="(max-width: 320px) 280px,
             (max-width: 480px) 440px,
-            800px" src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+            800px" src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy" loading="lazy">
 
       <h3>Cambio de resolución: mismo tamaño, distintas resoluciones</h3>
 
 
       <img srcset="elva-fairy-320w.jpg,
              elva-fairy-480w.jpg 1.5x,
-             elva-fairy-640w.jpg 2x" src="elva-fairy-640w.jpg" alt="Elva dressed as a fairy">
+             elva-fairy-640w.jpg 2x" src="elva-fairy-640w.jpg" alt="Elva dressed as a fairy" loading="lazy">
 
       <h3>Dirección artística</h3>
 
       <picture>
         <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
         <source media="(min-width: 800px)" srcset="elva-800w.jpg">
-        <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+        <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" loading="lazy">
       </picture>
 
       <picture>
         <source type="image/svg+xml" srcset="pyramid.svg">
         <source type="image/webp" srcset="pyramid.webp">
-        <img src="pyramid.png" alt="regular pyramid built from four equilateral triangles">
+        <img src="pyramid.png" alt="regular pyramid built from four equilateral triangles" loading="lazy">
       </picture>
 
       <p><a href="ejercicio2.html" title="Hola papi">Ejercicio Multimedia and embedding</a></p>
@@ -753,10 +755,10 @@
 </div>
 
 <footer>
-  <img class="ImgUwU" id="ImgUwU" src="images/cielo.png" alt="Mi imagen de prueba vinculada">
+  <img class="ImgUwU" id="ImgUwU" src="images/cielo.png" alt="Mi imagen de prueba vinculada" loading="lazy">
 </footer>
 
-<button id="btnIrInicio" onclick="irAlInicio()"><img src="/images/6flechaArriba.svg" alt=">"></button>
+<button id="btnIrInicio" onclick="irAlInicio()"><img src="images/6flechaArriba.svg" alt=">" loading="lazy"></button>
 
 <script>
   function irAlInicio() {
