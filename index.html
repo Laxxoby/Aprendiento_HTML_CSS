@@ -594,24 +594,24 @@
       <h3>Iframes</h3>
 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/g31NTpq9p-o" title="YouTube video player"
-        frameborder="0"
+        loading="lazy" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
       </br>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d490461.9617639412!2d-4.416641868496825!3d36.70068978369349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1687555238818!5m2!1ses!2sco"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        title="mapa de google maps" loading="lazy" width="600" height="450" style="border:0;" allowfullscreen=""
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </br>
-      <iframe src="https://developer.mozilla.org/en-US/docs/Glossary" width="100%" height="500" frameborder="0"
-        allowfullscreen sandbox>
+      <iframe src="https://developer.mozilla.org/en-US/docs/Glossary" loading="lazy" width="100%" height="500"
+        title="Pagina de mozillo protencion de terceros" frameborder="0" allowfullscreen sandbox>
         <p> <a href="https://developer.mozilla.org/en-US/docs/Glossary">
             Fallback link for browsers that don't support iframes
           </a> </p>
       </iframe>
 
       <h3>Iframe de carta</h3>
-      <iframe width="100%" height="500" src="carta.html" title="Carta" frameborder="0" sandbox
+      <iframe width="100%" height="500" src="carta.html" loading="lazy" title="Carta" frameborder="0" sandbox
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
 
@@ -622,7 +622,7 @@
         de tu página principal (an important SEO.)</p>
 
       <object data="images/Proyección de Créditos Cumplimiento RequisitoInglesB2_Sistemas_ 2015.pdf"
-        type="application/pdf" width="800" height="1200">
+        type="application/pdf" width="800" height="1200" loading="lazy">
         <p>
           You don't have a PDF plugin, but you can
           <a href="mypdf.pdf">download the PDF file.</a>
@@ -634,7 +634,7 @@
 
       <h3>SVG</h3>
 
-      <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+      <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg" loading="lazy">
         <rect width="100%" height="100%" fill="black" />
         <circle cx="150" cy="100" r="90" fill="blue" />
       </svg>
@@ -646,7 +646,7 @@
       <h3>SVG con css</h3>
 
       <div class="triangle-container">
-        <svg height="500" width="500">
+        <svg height="500" width="500" loading="lazy">
           <polygon points="250,60 100,400 400,400" class="triangle" />
           Sorry, your browser does not support inline SVG.
         </svg>
@@ -654,13 +654,13 @@
 
       <h3>SVG como iframe</h3>
 
-      <iframe src="ejemplosvg.html" width="500" height="500" sandbox>
+      <iframe src="ejemplosvg.html" width="500" height="500" sandbox title="corazon svg">
         <img src="triangle.png" alt="Triangle with three unequal sides" loading="lazy" />
       </iframe>
 
       <p><a href="ejemplosvg.html" title="Hola papi">ejemplo svg</a></p>
 
-      <svg height="210" width="500">
+      <svg height="210" width="500" loading="lazy">
         <polygon points="200,10 250,190 160,210" style="fill:lime;stroke:purple;stroke-width:1" />
         Sorry, your browser does not support inline SVG.
       </svg>
