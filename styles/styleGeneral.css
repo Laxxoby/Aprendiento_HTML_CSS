@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     display: grid;
-    grid-template-columns: 250px 77vw;
+    grid-template-columns: 320px 77vw;
     grid-gap: 0px;
     background-color: white;
     font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@ body {
 
 .barraIndece {
     background-color: rgb(229, 245, 220);
-    padding-left: 15px;
+    padding: 32px;
 }
 
 .cuerpo {
@@ -19,13 +19,19 @@ body {
 }
 
 .bloque-contenerdo {
-    border: 3px solid rgb(81, 62, 226);
+    border: 4px solid rgb(81, 62, 226);
     border-radius: 8px;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
+    background-color: rgb(244, 238, 255);
 
+    box-shadow: 10px 10px 0px rgba(81, 62, 226, 0.596);
     /* overflow: auto; */
     /* width: fit-content; */
+}
+
+.bloque-contenerdo:hover{
+    box-shadow: 10px 10px 0px rgba(105, 12, 182, 0.596);
 }
 
 .ImgUwU {
@@ -34,7 +40,8 @@ body {
 }
 
 .barraIndece h1 {
-    color: blueviolet;
+    color: rgb(81, 62, 226);
+
 }
 
 ul {
@@ -65,4 +72,14 @@ a:hover {
     border: none;
     border-radius: 25px;
     cursor: pointer;
+}
+
+.contan{
+    font-weight: 600;
+}
+
+.line{
+    height: 1px;
+    background-color: rgba(81, 62, 226, 0.372);
+    margin-block: 20px;
 }
