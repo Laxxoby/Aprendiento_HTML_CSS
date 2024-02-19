@@ -15,6 +15,9 @@ main, header {
     padding-inline-start: 1%;
 }
 
+header h2 {
+    margin-top: 6%;
+}
 
 
 .barraIndece {
@@ -45,6 +48,7 @@ main, header {
     box-shadow: 10px 10px 0px rgba(81, 62, 226, 0.596);
     /* overflow: auto; */
     /* width: fit-content; */
+    font-size: 1.1rem;
 }
 
 .bloque-contenerdo:hover{
@@ -115,6 +119,24 @@ main, header {
     text-align: center;
     transition: background-color 0.3s ease;
     /* Transición de color de fondo */
+}
+
+
+.boton1 a{
+    position: absolute;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 80px;
+    cursor: pointer;
+    background-color: rgb(81, 62, 226);
+    color: #ffffff;
+    padding-inline: 8px;
+    padding-block: 5px;
+    padding-top: 2px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    /* Transición de color de fondo */
+    text-decoration: none;
 }
 
 
